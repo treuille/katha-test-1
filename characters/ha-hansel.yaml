@@ -1,0 +1,79 @@
+# Character: Hansel
+# A sweet one-year-old boy who loves to play and explore
+
+# Id is a two character code for the character
+id: ha
+
+# What do we know about Hansel as a character
+attributes:
+  # Name is the full name of the character
+  name: Hansel
+
+  # Gender of the character
+  gender: male
+
+  # How old is the character
+  age: 1
+
+  # List top 3-5 values that motivate this character
+  # Examples: Adventure, Creativity, Justice, Family, Knowledge
+  core_values_motivations:
+    - Playing with geometric objects
+    - Dancing and moving around
+    - Physical exploration and discovery
+
+  # Summarize the character's personality in 3-5 words or short phrases
+  # Examples: Curious, Brave, Cautious, Optimistic, Stubborn
+  key_personality_traits:
+    - Very physical
+    - Fun and easy
+    - Very smiley
+    - Complete sweetie pie
+
+  # Activities or skills that reveal the character's interests and talents
+  # Examples: Painting, Coding, Hiking, Storytelling, Chess
+  # Note: Can inform interactive choices or story branching
+  hobbies_interests_skills:
+    - Playing with toys
+    - Putting things in his mouth
+    - Dancing
+
+  # How does this character usually respond to stress, challenge, or reward?
+  # Examples: Calm under pressure, Quick to frustration, Reflective and empathetic
+  # Note: Useful for scripting dialogue, choices, or character arcs
+  emotional_profile_typical_reactions:
+    - Fun and easy-going disposition
+    - Responds with smiles and joy
+    - Very happy and cheerful
+
+  # How does the character relate to others and the world around them?
+  # Examples: Team-oriented, Prefers solitude, Competitive
+  # Note: Can shape interactions, alliances, and story outcomes
+  social_context_relationships:
+    - Just wants to be played with
+    - Loves his friends
+    - Very social and engaging
+
+  # Signature habits, inside jokes, special belongings
+  memorable_details:
+    - Looks just like his dad
+    - Very handsome
+    - His mum watches him and comments on his resemblance to his father
+    - Always smiling
+
+  description: |
+    Hansel is a complete sweetie pie - a one-year-old boy full of joy and
+    energy. He loves to explore the world through movement and play, dancing
+    around and playing with geometric objects. He's very physical and tactile,
+    enjoying toys and exploring things with his hands and mouth as toddlers do.
+
+    With his constant smile and easy-going nature, Hansel brightens every room
+    he enters. He loves being around friends and just wants to play and be
+    loved. His mum often remarks on how handsome he is and how much he looks
+    just like his dad. At just one year old, Hansel is discovering the world
+    with wonder and joy.
+
+# Storybook Pages (ordered list)
+# Initially this list is empty when we create the character, but it
+# will get filled after we run the right /commands to get all the pages built.
+story: []
