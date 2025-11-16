@@ -1,0 +1,80 @@
+# Emer Character File
+
+# Id is a two character code for the character
+id: em
+
+# What do we know about Emer as a character
+attributes:
+  # Name is the full name of the character
+  name: Emer
+
+  # Gender of the character
+  gender: female
+
+  # How old is the character
+  age: 5
+
+  # List top 3-5 values that motivate this character
+  # Examples: Adventure, Creativity, Justice, Family, Knowledge
+  core_values_motivations:
+    - Play and having fun
+    - Connection with her brother and other kids
+    - Creativity and self-expression
+    - Joy and happiness
+
+  # Summarize the character's personality in 3-5 words or short phrases
+  # Examples: Curious, Brave, Cautious, Optimistic, Stubborn
+  key_personality_traits:
+    - Playful and energetic
+    - Super sweet
+    - Social and loving
+    - Creative and imaginative
+
+  # Activities or skills that reveal the character's interests and talents
+  # Examples: Painting, Coding, Hiking, Storytelling, Chess
+  # Note: Can inform interactive choices or story branching
+  hobbies_interests_skills:
+    - Painting and drawing
+    - Playing with Duplos
+    - Dancing
+    - Loves unicorns, alicorns, and K-pop demon hunters
+
+  # How does this character usually respond to stress, challenge, or reward?
+  # Examples: Calm under pressure, Quick to frustration, Reflective and empathetic
+  # Note: Useful for scripting dialogue, choices, or character arcs
+  emotional_profile_typical_reactions:
+    - Excited and enthusiastic about new activities
+    - Seeks comfort and companionship when upset
+    - Expresses emotions openly and directly
+    - Responds to reward with pure joy and delight
+
+  # How does the character relate to others and the world around them?
+  # Examples: Team-oriented, Prefers solitude, Competitive
+  # Note: Can shape interactions, alliances, and story outcomes
+  social_context_relationships:
+    - Very close bond with her brother
+    - Loves being with other kids
+    - Thrives in social, playful settings
+    - Loves to be played with and given attention
+
+  # Signature habits, inside jokes, special belongings
+  memorable_details:
+    - Curly blonde hair
+    - Loves to eat pancakes in the morning
+    - Really into unicorns and alicorns
+    - Fascinated by K-pop demon hunters
+    - Always ready to dance and play
+
+  description: |
+    Emer is a sweet, playful 5-year-old girl who radiates joy and energy.
+    She loves creativity through painting, drawing, and dancing, and is
+    happiest when playing with her brother or other kids. With her curly
+    blonde hair and infectious enthusiasm, she brings fun and laughter
+    wherever she goes. Her imagination is filled with unicorns, alicorns,
+    and K-pop demon hunters, and she approaches each day with wonder and
+    excitement.
+
+# Storybook Pages (ordered list)
+# Initially this list is empty when we create the character, but it
+# will get filled after we run the right /commands to get all the pages built.
+story: []
