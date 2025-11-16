@@ -71,16 +71,16 @@ attributes:
 # Initially this list is empty when we create the character, but it
 # will get filled after we run the right /commands to get all the pages built.
 story:
-  - cu-01
-  - cu-ha-02
-  - cu-03
-  - cu-04
-  - cu-em-05
-  - cu-06
-  - cu-07
-  - cu-08
-  - cu-09
-  - cu-10
-  - cu-11
-  - cu-12
+  - cu-01.yaml
+  - cu-ha-02.yaml
+  - cu-03.yaml
+  - cu-04.yaml
+  - cu-em-05.yaml
+  - cu-06.yaml
+  - cu-07.yaml
+  - cu-08.yaml
+  - cu-09.yaml
+  - cu-10.yaml
+  - cu-11.yaml
+  - cu-12.yaml
 
