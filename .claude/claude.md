@@ -26,9 +26,16 @@ world
 
 ### Binding Two Characters Together
 
+**Important**: This step creates only ONE shared page where the characters meet. Do not create all the remaining pages for either character.
+
 1. Ask the user which two characters should meet/interact
 2. Ask about the nature of their interaction (what happens when they meet?)
 3. Consult `templates/story-template.yaml` to determine which spread makes sense for them to meet
+   - **Constraint**: Two characters CANNOT meet in:
+     - Spread 1 (pages 5-6) - the first spread
+     - Spread 11 (pages 25-26) - second to last spread
+     - Spread 12 (pages 27-28) - final spread
+   - Valid meeting pages are: 7-24
 4. Determine the page number where they'll meet (must be the same for both characters)
 5. Check if the shared page already exists (use alphabetically ordered character codes: e.g., `cu-ma-07.yaml`)
 6. If the page doesn't exist:
@@ -36,8 +43,36 @@ world
    - Use `templates/page-example.yaml` as the template
    - Write the page content so it makes narrative sense whether reading character A's story or character B's story
    - The text should work from both perspectives
+   - **Text constraint**: Keep the `text` field to 2 sentences maximum
+   - **Visual**: The `visual` field can be very long and detailed to convey the scene visually
 7. Insert the page reference into both character files' `story:` lists at the correct position (in order)
 8. **Important**: Both characters must reference the exact same page file at the same page number
+9. **Stop here**: Do not create any other pages for these characters at this time
+
+### Creating All Pages for a Character
+
+**Note**: This step should be done AFTER binding characters together, so that shared pages already exist and won't be duplicated.
+
+1. Ask the user which character they want to create pages for
+2. Load the character file from `characters/` to see which pages already exist in their `story:` list
+3. Determine which pages need to be created:
+   - The story follows `templates/story-template.yaml` which has 12 spreads covering pages 5-28
+   - Check which pages are already listed in the character's `story:` field
+   - **Skip pages that already exist** - these will be shared pages created during the binding step
+   - Create missing pages with sequential numbering to fill gaps
+4. For each page that needs to be created:
+   - Use `templates/page-example.yaml` as the template
+   - Determine which spread the page belongs to based on `templates/story-template.yaml`
+   - Copy the `beat`, `hook`, and `payoff` from the corresponding spread in the story template
+   - Create a simple, bland `description` (1-2 sentences) for what happens on this page
+   - Create a `visual` description based on the world defined in `world.yaml`
+     - **Visual can be very long and detailed** to convey the scene richly
+   - Create a `text` field with the actual page text
+     - **Text must be 2 sentences maximum** - keep it super short and concise
+   - Keep descriptions generic enough to be customized later
+   - Save the page file in `pages/` with the naming convention `cc-pp.yaml` (e.g., `ma-05.yaml`, `cu-07.yaml`)
+5. Update the character's `story:` list to include all the newly created pages in sequential order
+6. **Do not create duplicate pages** - if a shared page already exists from the binding step, reference it instead of creating a new one
 
 ## Architecture
 
