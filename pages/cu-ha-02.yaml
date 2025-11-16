@@ -6,30 +6,34 @@ id: cu-ha-02
 spread: 2
 
 # Story beat for this page
-beat: "Cullan discovers Hansel in the clearing and their bond begins"
+beat: "Discovery revealed (Cullan) / Arrival and brief rest (Hansel)"
 
 # Hook to draw readers forward
-hook: "What adventures will they share together?"
+hook: "The butterfly reappears - will Hansel keep following it deeper into the forest?"
 
 # Payoff from previous pages
-payoff: "The two cousins find each other in the forest"
+payoff: "Cullan: The giggling reveals his little cousin on an adventure. Hansel: The butterfly leads him to a safe clearing and a familiar face."
 
 # Brief description of the scene
-description: "Cullan finds Hansel playing with geometric shapes and sits down to watch over him"
+description: "Cullan, exploring the forest with his camera, discovers Hansel who has followed a butterfly into the woods. They share a brief, warm moment before the butterfly beckons Hansel onward."
 
 # Visual description that works from both character perspectives
 visual: |
-  A peaceful forest clearing bathed in warm afternoon sunlight. Thirteen-year-old
-  Cullan approaches and sits on soft moss, his bouncy blonde hair catching the light,
-  his piercing blue eyes gentle and watchful. His lanky frame is relaxed but attentive.
-  Before him, one-year-old Hansel sits surrounded by colorful geometric objects—cubes,
-  spheres, pyramids—each one catching his delighted attention. Hansel's face radiates
-  pure joy, his signature smile bright as he reaches for a bright blue cube. The scene
-  captures a moment of quiet protection and innocent wonder, with dappled shadows
-  dancing across them both.
+  A sun-dappled forest clearing where the garden ends and the wild woods begin.
+  Thirteen-year-old Cullan emerges from the tree line, his camera hanging around his
+  neck, bouncy blonde hair catching the afternoon light. His piercing blue eyes widen
+  with gentle surprise as he spots one-year-old Hansel sitting on the soft moss.
+  Hansel is surrounded by objects he's found - pinecones, smooth stones, interesting
+  twigs arranged like his geometric toys at home. He still clutches the blue pyramid
+  he brought from his room. His signature bright smile radiates pure joy as he looks
+  up at his cousin and offers him a pinecone. The beautiful butterfly that led Hansel
+  here rests on a nearby flower, its wings shimmering. Cullan kneels down with a
+  protective, loving smile, but even as they share this moment, the butterfly begins
+  to flutter deeper into the forest, catching Hansel's eye.
 
 # Story text that works whether read from Cullan's book or Hansel's book
 text: |
-  Cullan followed the giggling through the trees and found Hansel playing with
-  geometric shapes in the clearing. Hansel offered him a red pyramid, and Cullan
-  sat down beside him with a smile.
+  Cullan was exploring the forest with his camera when he heard familiar giggling.
+  There was Hansel, who had wandered out following a butterfly! The little one offered
+  Cullan a pinecone with his biggest smile. Cullan ruffled his hair gently - but then
+  the butterfly danced away deeper into the woods, and Hansel toddle-ran after it again.
