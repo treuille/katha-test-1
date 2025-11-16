@@ -1,0 +1,27 @@
+# Character: Hansel
+# Spread 3 - First Attempt
+
+id: ha-03
+spread: 3
+beat: "Attempt #1 (simple/obvious)"
+hook: "Simple solutions fail, prompting the question of who might have better answers."
+payoff: "A wise helper appears who offers new perspective or guidance."
+
+description: "Hansel tries to reach a beautiful dancing butterfly but his simple toddler attempts don't work."
+
+visual: |
+  In a sun-dappled garden clearing, one-year-old Hansel stands on his wobbly
+  legs, arms stretched high overhead, reaching for a beautiful iridescent butterfly
+  that dances just out of reach. His face shows pure determination mixed with his
+  characteristic bright smile. Around his feet are scattered attempts to reach
+  higher - a small wooden block he tried to stand on, a red pyramid knocked over,
+  a blue cube rolled to the side. The butterfly floats gracefully above him,
+  sunlight making its wings shimmer with rainbow colors. Hansel bounces on his
+  toes, his whole body engaged in the effort, but the butterfly stays tantalizingly
+  beyond his grasp. Flower petals drift around the scene, and soft grass cushions
+  his unsteady stance.
+
+text: |
+  Hansel jumped and reached for the pretty butterfly, stretching as high as his
+  little arms could go. He even tried standing on his blue block, but it rolled
+  away and the butterfly danced higher!

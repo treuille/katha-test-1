@@ -1,0 +1,26 @@
+# Character: Hansel
+# Spread 8 - All Is Lost
+
+id: ha-08
+spread: 8
+beat: "All-is-lost / emotional low"
+hook: "Self-doubt surfaces, questioning whether continuing is worth it."
+payoff: "Something affirms that the effort matters and creates emotional reconnection."
+
+description: "Hansel grows tired and discouraged as the forest grows darker and the butterfly seems impossibly far away."
+
+visual: |
+  The forest has grown darker and more ominous. One-year-old Hansel sits on the
+  forest floor, his usual bright smile replaced with uncertainty and fatigue. His
+  small shoulders slump, and for the first time he looks truly tired. The butterfly
+  he's been following is now just a distant shimmer among the darkening trees,
+  barely visible. Storm clouds gather overhead, and the cheerful afternoon light
+  has faded to gray twilight. His geometric toys from home are nowhere to be seen -
+  he's truly far from the familiar. A few scattered flower petals lie around him,
+  remnants of the bright path he'd been following. His little hand reaches toward
+  the distant butterfly but drops back down as if the effort is too much. The
+  forest feels vast and overwhelming around his small form.
+
+text: |
+  Hansel's legs were so tired from walking, and the butterfly was still so far away.
+  Maybe he should just go back home where it was safe and warm.
