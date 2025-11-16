@@ -37,6 +37,10 @@ def load_character(char_code):
 
 def load_page(page_filename):
     """Load page data from the YAML file."""
+    # Add .yaml extension if not present
+    if not page_filename.endswith('.yaml'):
+        page_filename = f'{page_filename}.yaml'
+
     page_path = Path('pages') / page_filename
 
     if not page_path.exists():
