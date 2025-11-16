@@ -1,29 +1,30 @@
-# Emer's page - Spread 3, page 9
-# Trying simple, creative solutions to find the sparkles
+# Emer's Page 9
+# Taking a break, sparkles appear during play
 
 id: em-09
-spread: 3
-beat: "Attempt #1 (simple/obvious)"
-hook: Simple solutions fail, prompting the question of who might have better answers.
-payoff: A wise helper appears who offers new perspective or guidance.
+spread: 5
+beat: "Attempt #3 (bigger world / stakes up)"
+hook: Questionable character offers confident solution, creating doubt about whether to trust them.
+payoff: The suggested solution fails spectacularly and obviously wrong.
 
-description: Emer tries to bring back the sparkles by painting them, hoping her art will make them reappear.
+description: Tired from searching, Emer and Hansel take a break to play, and the sparkles suddenly appear.
 
 visual: |
-  Emer sits cross-legged on a moss-covered log, her painting supplies spread around
-  her in organized chaos. She's painting sparkles on a large sheet of paper propped
-  against a tree - swirls of purple, blue, and gold watercolors representing the
-  magical lights she saw. Hansel sits nearby, clapping encouragingly and stacking his
-  colorful blocks into a tower. The forest around them is beautifully detailed with
-  afternoon light filtering through the canopy. Small forest creatures - a curious
-  squirrel, a pair of mice, a bright blue bird - watch from nearby branches and rocks,
-  their expressions suggesting gentle amusement at the children's efforts. Despite
-  Emer's beautiful painting, no actual magical sparkles appear. Her expression shows
-  concentration and hope, even as we can see this approach isn't working. The
-  composition contrasts her artistic creation with the magical reality she's trying
-  to capture, showing the gap between representation and manifestation.
+  Emer sits on a moss-covered log, having given up the search for now. Her painting
+  supplies are spread beside her, and she's started painting just to relax - not
+  trying to find anything, just creating for joy. Hansel plays nearby, building a
+  tower with his colorful blocks and giggling with delight each time he adds a new
+  piece. The scene is peaceful and happy - both children absorbed in their creative
+  play. And there, appearing as if drawn by their joy, are the rainbow sparkles -
+  just a few at first, dancing in the air around them. The sparkles are rendered
+  with luminous detail, appearing naturally as if they belong to this moment of
+  simple happiness. Neither child has noticed them yet; they're too focused on
+  their play. The forest around them is beautiful and detailed, and the light has
+  a warm, magical quality. Small creatures watch from nearby - a rabbit, mice, birds
+  - all seemingly pleased by this development. The composition captures the moment
+  just before the children notice, creating anticipation.
 
 text: |
-  "Maybe if I paint them, they'll come back!" Emer said, creating swirls of rainbow
-  colors on her paper. But the real sparkles stayed hidden, no matter how beautiful
-  her painting became.
+  Emer stopped searching and started painting just for fun, while Hansel built a
+  wobbly tower with his blocks. Neither noticed when rainbow sparkles began to appear
+  in the air around them, drawn by their laughter.

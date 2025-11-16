@@ -1,27 +1,29 @@
-# Emer's page - Spread 1, page 6
-# Noticing something unusual in the forest
+# Emer's Page 6
+# Venturing out again with renewed courage
 
 id: em-06
-spread: 1
-beat: "Ordinary world + desire hint"
-hook: Something new or unusual appears, creating curiosity about what it is.
-payoff: The discovery is fully revealed, establishing the story goal.
+spread: 3
+beat: "Attempt #1 (simple/obvious)"
+hook: Simple solutions fail, prompting the question of who might have better answers.
+payoff: A wise helper appears who offers new perspective or guidance.
 
-description: Emer notices something unusual - sparkles of light dancing between the trees that she's never seen before.
+description: After dancing with Cullan, Emer feels brave enough to search for the sparkles again, this time with more confidence.
 
 visual: |
-  Emer stands at the edge of the clearing, her painting supplies forgotten at her feet.
-  Her curly blonde hair frames her face as she gazes with wonder toward the deeper forest.
-  Between the ancient trees, tiny sparkles of iridescent light dance and flutter like
-  magical fireflies - shimmering in rainbow colors that shift from purple to blue to
-  gold. The sparkles seem to be leading deeper into the Hidden Forest, creating a
-  winding trail of light through the moss-covered trees. The forest around her is
-  rendered in rich detail - every leaf and stone visible - but the magical lights draw
-  the eye forward. Emer's expression shows pure curiosity and delight, her hands clasped
-  together in excitement. The watercolor wash creates a dreamy atmosphere where the
-  ordinary forest begins to reveal its magical nature. Small forest creatures - mice,
-  beetles, birds - peek out from their hiding spots, also watching the lights with interest.
+  Emer waves goodbye to Cullan (visible in the background of the clearing) and heads
+  into the forest with renewed energy and purpose. Her posture shows confidence - head
+  up, walking with determination. She carries her painting supplies and a small bag.
+  The familiar clearing is behind her, bathed in warm light, while the forest path
+  ahead winds into more mysterious territory. The transition from known to unknown
+  is visible in the composition - warm, comfortable greens and golds behind her
+  shifting to cooler, more mystical blues and purples ahead. Emer's expression shows
+  excitement rather than fear this time; her moment with her brother has given her
+  courage. In the distance ahead, barely visible, a few rainbow sparkles drift between
+  trees, as if waiting for her. Small forest creatures watch her journey with
+  interest - rabbits, birds, a young deer. The forest is rendered in loving detail,
+  every fern and flower carefully depicted. The path ahead looks inviting rather than
+  frightening, suggesting that Emer's mindset has shifted from lost to adventuring.
 
 text: |
-  Emer's paintbrush stilled as sparkles of rainbow light danced between the trees,
-  something she'd never seen in all her adventures here. Where were they going?
+  Dancing with Cullan reminded Emer how brave she could be. With a wave goodbye, she
+  headed back into the forest, determined to find those magical sparkles again.

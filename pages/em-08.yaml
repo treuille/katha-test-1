@@ -1,28 +1,30 @@
-# Emer's page - Spread 2, page 8
-# Following the sparkles with Hansel leads to uncertainty
+# Emer's Page 8
+# Searching for sparkles with Hansel
 
 id: em-08
-spread: 2
-beat: "Inciting incident"
-hook: The path forward runs out or becomes unclear, raising uncertainty.
-payoff: The wider world opens up with multiple options and first plan emerges.
+spread: 4
+beat: "Attempt #2 (ask the expert)"
+hook: Guidance points toward unfamiliar territory with a warning about danger or difficulty.
+payoff: Journey into new territory begins with dramatic departure from familiar world.
 
-description: Emer and Hansel follow the magical sparkles together, but the trail suddenly disappears at a fork in the forest paths.
+description: Emer and Hansel search the forest together, looking everywhere for the rainbow sparkles.
 
 visual: |
-  Emer and Hansel stand together at a place where three different paths diverge into
-  the Hidden Forest. The rainbow sparkles that had been leading them forward have
-  suddenly vanished, leaving no trace of which way to go. Emer kneels beside Hansel,
-  pointing at the different paths while Hansel looks up at her with his characteristic
-  big smile, holding his colorful blocks. The three paths each look mysteriously different:
-  one winds upward toward a distant waterfall, another descends into a moss-covered
-  valley thick with ferns, and the third curves around massive ancient trees draped
-  with hanging vines. The forest is rendered in exquisite detail - beetles on bark,
-  tiny mushrooms, birds in branches - creating a sense of the infinite possibilities
-  of the Hidden Forest. The light is dappled and mysterious, suggesting adventure but
-  also uncertainty. Emer's expression shows both confusion and determination.
+  Emer and Hansel explore the Hidden Forest together, searching for the sparkles.
+  Emer leads the way with enthusiasm, pointing at different parts of the forest
+  while Hansel toddles along beside her, his colorful blocks tucked under one arm.
+  They peer behind waterfalls, look under mushrooms, search around twisted tree
+  roots - the composition shows them as small figures in a vast, detailed forest
+  full of places to explore. The forest is rendered in loving detail - every moss-
+  covered stone, every unusual flower, every babbling stream carefully depicted.
+  Forest creatures watch them with interest - rabbits, birds, a curious fox. Emer's
+  expression shows determination mixed with growing frustration; she so wants to
+  find the sparkles to show Hansel. Hansel, meanwhile, seems perfectly happy just
+  to be exploring with his sister, stopping to examine interesting rocks and flowers.
+  The light suggests late morning moving toward afternoon. Despite the beautiful
+  forest around them, there are no sparkles to be seen anywhere.
 
 text: |
-  The sparkles led them deeper into the forest, dancing ahead like they wanted to be
-  followed. But at the three-path crossing, the lights simply vanished, leaving Emer
-  and Hansel wondering which way to go.
+  Emer and Hansel searched everywhere for the magical sparkles - behind waterfalls,
+  under flowers, around ancient trees. But no matter where they looked, the rainbow
+  lights stayed hidden.
