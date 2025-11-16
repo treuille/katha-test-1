@@ -77,5 +77,15 @@ attributes:
 # Initially this list is empty when we create the character, but it
 # will get filled after we run the right /commands to get all the pages built.
 story:
+  - pages/ha-01.yaml
   - pages/cu-ha-02.yaml
+  - pages/ha-03.yaml
+  - pages/ha-04.yaml
+  - pages/ha-05.yaml
+  - pages/ha-06.yaml
   - pages/em-ha-07.yaml
+  - pages/ha-08.yaml
+  - pages/ha-09.yaml
+  - pages/ha-10.yaml
+  - pages/ha-11.yaml
+  - pages/ha-12.yaml

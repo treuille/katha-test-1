@@ -1,0 +1,27 @@
+# Character: Hansel
+# Spread 9 - Inner Shift
+
+id: ha-09
+spread: 9
+beat: "Deepening choice / inner shift"
+hook: "A previously overlooked detail suddenly connects to something from earlier."
+payoff: "Returning to prior element with new understanding makes solution clear."
+
+description: "Hansel notices a geometric pattern in the flowers that reminds him of his toys, rekindling his determination."
+
+visual: |
+  A transformative moment in the forest. One-year-old Hansel sits up straighter,
+  his eyes widening with recognition. Before him, a patch of flowers creates a
+  familiar geometric pattern - circular blooms arranged like his spheres, pyramid-
+  shaped flowers pointing upward like his toys, cube-shaped buds clustered together.
+  The connection sparks something in him, and his characteristic bright smile
+  returns to his face. He reaches out to touch the flowers gently, and suddenly
+  the butterfly lands nearby as if acknowledging his renewed spirit. The storm
+  clouds part slightly, allowing a single beam of golden light to break through,
+  illuminating the geometric flower pattern. In this moment, the unfamiliar forest
+  connects to his familiar world, and his confidence blooms like the flowers around
+  him. His small hand traces the pattern in wonder.
+
+text: |
+  Then Hansel saw it - the flowers made the same shapes as his favorite toys at home!
+  Suddenly he knew he could do this, because the forest wasn't so different after all.
