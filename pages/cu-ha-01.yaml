@@ -1,0 +1,44 @@
+# Shared Page: Cullan and Hansel
+# Page ID must match the filename
+id: cu-ha-01
+
+# Which spread in the story arc (1-12)
+spread: 1
+
+# Story beat for this page
+beat: "A gentle bond forms between the protective older cousin and the joyful toddler"
+
+# Hook to draw readers forward
+hook: "What adventures will they share together?"
+
+# Payoff from previous pages
+payoff: "The beginning of a special friendship"
+
+# Brief description of the scene
+description: "Cullan watches over baby Hansel as he plays with colorful geometric shapes in a sun-dappled clearing"
+
+# Visual description that works from both character perspectives
+visual: |
+  A peaceful forest clearing bathed in warm afternoon sunlight. Thirteen-year-old
+  Cullan sits on soft moss, his bouncy blonde hair catching the light, his piercing
+  blue eyes gentle and watchful. His lanky frame is relaxed but attentive. Before
+  him, one-year-old Hansel sits surrounded by colorful geometric objects - cubes,
+  spheres, pyramids - each one catching his delighted attention. Hansel's face
+  radiates pure joy, his signature smile bright as he reaches for a bright blue
+  cube. The scene captures a moment of quiet protection and innocent wonder,
+  with dappled shadows dancing across them both.
+
+# Story text that works whether read from Cullan's book or Hansel's book
+text: |
+  The clearing was quiet except for Hansel's delighted giggles. Cullan watched
+  his little cousin discover each geometric shape with fresh wonder - the way
+  Hansel's eyes lit up when he picked up the blue cube, how he laughed when
+  the yellow sphere rolled away.
+
+  "You're really something, little guy," Cullan said softly, his shy smile
+  appearing as Hansel looked up at him with that constant, easy grin. In this
+  moment, Cullan felt the protective warmth he always wanted to share - to be
+  the gentle guardian, to watch over someone who saw the world with such pure joy.
+
+  Hansel reached toward Cullan, offering him a red pyramid. And Cullan, taking
+  it carefully, knew this was just the beginning of their adventures together.

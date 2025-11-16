@@ -76,4 +76,5 @@ attributes:
 # Storybook Pages (ordered list)
 # Initially this list is empty when we create the character, but it
 # will get filled after we run the right /commands to get all the pages built.
-story: []
+story:
+  - pages/cu-ha-01.yaml
