@@ -71,5 +71,4 @@ attributes:
 # Initially this list is empty when we create the character, but it
 # will get filled after we run the right /commands to get all the pages built.
 story:
-  - pages/cu-01.yaml
   - pages/cu-ha-02.yaml
