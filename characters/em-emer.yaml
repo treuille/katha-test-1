@@ -1,5 +1,11 @@
 # Emer Character File
-
+#
+# To view this character's complete story, run:
+#   python3 scripts/show_story.py em
+#
+# If you encounter any issues with page formatting or consistency, run:
+#   python3 scripts/test_consistency.py
+#
 # Id is a two character code for the character
 id: em
 

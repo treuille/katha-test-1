@@ -1,6 +1,12 @@
 # Character: Hansel
 # A sweet one-year-old boy who loves to play and explore
-
+#
+# To view this character's complete story, run:
+#   python3 scripts/show_story.py ha
+#
+# If you encounter any issues with page formatting or consistency, run:
+#   python3 scripts/test_consistency.py
+#
 # Id is a two character code for the character
 id: ha
 
