@@ -1,0 +1,26 @@
+# Character: Hansel
+# Spread 1 - Ordinary World + Desire Hint
+
+id: ha-01
+spread: 1
+beat: "Ordinary world + desire hint"
+hook: "Something new or unusual appears, creating curiosity about what it is."
+payoff: "The discovery is fully revealed, establishing the story goal."
+
+description: "Hansel plays happily with his toys at home but notices something new and exciting beyond his familiar space."
+
+visual: |
+  A cozy, sunlit corner of a warm home where one-year-old Hansel sits on a soft
+  rug surrounded by his favorite geometric toys - colorful cubes, spheres, and
+  pyramids scattered around him. His signature bright smile lights up his face
+  as he stacks blocks, his handsome features showing his resemblance to his dad.
+  Through a nearby window, mysterious golden light filters in, catching dancing
+  motes of dust. Hansel pauses mid-play, his attention drawn to gentle sounds
+  coming from outside - the rustling of leaves, distant laughter, the promise of
+  something wonderful. His eyes widen with curiosity as he looks toward the window,
+  one hand still holding a blue pyramid.
+
+text: |
+  Hansel was having the best time stacking his colorful blocks into wobbly towers
+  that tumbled down with delightful crashes. But then he heard something magical
+  outside - was that music and laughter?

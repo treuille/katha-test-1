@@ -1,0 +1,26 @@
+# Character: Hansel
+# Spread 4 - Ask the Expert
+
+id: ha-04
+spread: 4
+beat: "Attempt #2 (ask the expert)"
+hook: "Guidance points toward unfamiliar territory with a warning about danger or difficulty."
+payoff: "Journey into new territory begins with dramatic departure from familiar world."
+
+description: "A wise old owl suggests Hansel follow the butterfly into the forest, but warns it leads to unknown places."
+
+visual: |
+  A gentle garden edge where manicured lawn meets the wild forest beyond. One-year-old
+  Hansel sits on the grass looking up at a large, wise-looking owl perched on a low
+  branch. The owl has kind amber eyes and gestures with one wing toward the shadowy
+  forest path ahead. The beautiful butterfly floats at the forest's edge, beckoning.
+  Hansel's face shows wonder and curiosity, his characteristic smile bright despite
+  a hint of uncertainty in his wide eyes. The contrast is clear - behind him, the
+  safe familiar garden bathed in warm sunlight; ahead, the mysterious forest with
+  dappled shadows and deeper greens. His geometric toys lie forgotten in the grass
+  beside him as he contemplates this new adventure.
+
+text: |
+  The wise old owl ruffled his feathers and pointed toward the forest with his wing.
+  "The butterfly's home is deep in there," he hooted gently, "where you've never
+  been before."

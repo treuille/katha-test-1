@@ -1,0 +1,28 @@
+# Character: Hansel
+# Spread 11 - Resolution (External)
+
+id: ha-11
+spread: 11
+beat: "Resolution (external)"
+hook: "Return journey begins with hint of future possibility or unresolved element."
+payoff: "Character arrives home integrating what they gained from the journey."
+
+description: "Hansel plays joyfully in the butterfly garden and one special butterfly chooses to come home with him."
+
+visual: |
+  Pure joy in the magical garden. One-year-old Hansel sits surrounded by flowers
+  and butterflies, his characteristic bright smile radiant with happiness. He's
+  playing a familiar game - arranging flowers into geometric patterns just like
+  his toys at home - spherical dandelions, pyramid-shaped blooms, cube-like buds.
+  Butterflies land gently on his hands, shoulders, and hair. The butterfly he
+  followed all this way rests contentedly on his palm, its iridescent wings
+  catching the light. As the afternoon sun begins to lower, casting long golden
+  rays, the butterfly seems to make a choice - it nestles into Hansel's gentle
+  hand as if saying "I'll come with you." The garden path back toward home is
+  visible in the distance, now familiar rather than frightening. The external
+  quest is complete - he found the butterfly's home and made a magical friend.
+
+text: |
+  Hansel danced and played with all the butterflies in their beautiful garden. When
+  it was time to go home, his special butterfly friend landed on his hand and came
+  along too!
