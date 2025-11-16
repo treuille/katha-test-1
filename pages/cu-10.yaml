@@ -1,0 +1,48 @@
+# Cullan's Page - Spread 10
+# Page ID must match the filename
+id: cu-10
+
+# Which spread in the story arc (1-12)
+spread: 10
+
+# Story beat for this page
+beat: "Climax: big action"
+
+# Hook to draw readers forward
+hook: Threshold moment with hesitation about taking the final irreversible step.
+
+# Payoff from previous pages
+payoff: Returning to prior element with new understanding makes solution clear.
+
+# Brief description of the scene
+description: With Emer's painted stone bridging the gap, Cullan makes the crossing and finally captures the perfect photograph of the glowing mushrooms under moonlight.
+
+# Visual description for the illustrator
+visual: |
+  Under the full moon's silver light, Cullan stands on the far bank of the stream, his camera
+  raised to his eye, perfectly framed against the night sky. The moment is triumphant and
+  beautiful. In the foreground, the glowing mushrooms are rendered in exquisite detail—their
+  blue-green bioluminescence pulsing gently, creating halos of ethereal light. Cullan's
+  expression, visible in profile, shows pure joy and satisfaction—his blue eyes bright with
+  accomplishment, his shy smile wide and genuine. Behind him, the crossing path is visible:
+  the natural bridges of willow branches and roots, and there, at the crucial gap, one of
+  Emer's painted stones—bright with swirling colors even in the moonlight—serves as the final
+  stepping stone. The stone is decorated with Emer's characteristic style, making it clear
+  this is a shared victory, not a solo one. The moon illuminates everything in silver and
+  blue, making the scene magical. The mushrooms seem to glow brighter for their observer, as
+  if rewarding his persistence and thoughtfulness. Around Cullan, the Hidden Forest reveals
+  its nighttime beauty: fireflies dance in clouds of light, nocturnal flowers bloom in
+  impossible colors, small creatures gather to watch this moment—the mice that taught him the
+  path, birds settling in for the night, even a glimpse of the wise owl in the distant trees.
+  The waterfalls catch moonlight, creating silver cascades. The composition captures both the
+  achievement of the goal and the journey it took to get here, with the painted stone serving
+  as a visual reminder that what we love empowers us to succeed. Details include: the click of
+  the camera shutter suggested in Cullan's finger position, the reflection of mushroom-light
+  in the stream below, Emer's painted stone showing details of hearts and stars, and Cullan's
+  tousled hair and dirty clothes showing he's earned this moment through genuine effort.
+
+# Story text - MAXIMUM 2 SENTENCES
+text: |
+  Cullan placed Emer's painted stone to bridge the gap, crossed to the far bank, and raised
+  his camera with trembling hands. The glowing mushrooms filled his viewfinder perfectly
+  under the moonlight—the photograph he'd journeyed so far to capture.

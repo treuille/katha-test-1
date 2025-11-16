@@ -1,0 +1,45 @@
+# Cullan's Page - Spread 8
+# Page ID must match the filename
+id: cu-08
+
+# Which spread in the story arc (1-12)
+spread: 8
+
+# Story beat for this page
+beat: "All-is-lost / emotional low"
+
+# Hook to draw readers forward
+hook: Self-doubt surfaces, questioning whether continuing is worth it.
+
+# Payoff from previous pages
+payoff: What's missing is revealed to be distant or difficult to reach.
+
+# Brief description of the scene
+description: Back on the original bank, exhausted and discouraged as dusk falls, Cullan sits slumped against a tree questioning if getting the photograph was ever worth all this effort.
+
+# Visual description for the illustrator
+visual: |
+  Cullan sits with his back against an ancient oak tree on the original stream bank, his
+  lanky frame slumped in exhaustion and defeat. His camera lies in his lap, temporarily
+  forgotten. His blonde hair is disheveled, dirt smudges mark his cheek and clothes, and his
+  blue eyes look tired and distant. The light has shifted to deep twilight—the sky above the
+  canopy is turning purple and orange, and the forest is filling with shadows. Across the
+  stream, the glowing mushrooms pulse more brightly in the gathering darkness, their ethereal
+  light seeming to mock his failed attempt. The beautiful scene that started his quest now
+  feels unreachable. Around Cullan, the forest continues its evening transformation: fireflies
+  are beginning to emerge, nocturnal creatures are stirring, and the waterfalls in the
+  distance have become white ribbons in the dimness. His expression captures complete
+  emotional exhaustion—not just physical tiredness, but genuine doubt. His hands rest loosely
+  on his camera, and his posture suggests someone who's questioning their entire endeavor.
+  The composition emphasizes isolation and the weight of disappointment, with Cullan small
+  against the massive tree, dwarfed by the forest's indifference to his struggles. Small
+  details include: a few leaves falling around him, the last rays of sunlight disappearing
+  from the canopy, his camera strap tangled, and in his pocket, visible corner of a photo of
+  Emer—a reminder of home and simpler times. The mood is genuinely melancholic, capturing
+  that moment when a person questions whether their goal was ever worth pursuing.
+
+# Story text - MAXIMUM 2 SENTENCES
+text: |
+  Cullan sat exhausted against the tree as darkness fell, staring at the distant glow across
+  the water he couldn't reach. "Maybe it was never worth it," he whispered to himself, too
+  tired to care anymore.

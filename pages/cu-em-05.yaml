@@ -1,40 +1,43 @@
 # Shared page for Cullan and Emer
-# First page of Spread 1 - establishing their bond in the Hidden Forest
+# Spread 5 - venturing into unfamiliar territory together
 
 # The ID matches the filename
 id: cu-em-05
 
 # See `templates/story-template.yaml` for documentation
-spread: 1
+spread: 5
 
 # Ultra-short description of where we are in the story
-beat: "Ordinary world + desire hint"
+beat: "Attempt #3 (bigger world / stakes up)"
 
 # What hooks them into the next page
-hook: Something new or unusual appears, creating curiosity about what it is.
+hook: Questionable character offers confident solution, creating doubt about whether to trust them.
 
 # What this page pays off from the previous spread
-payoff: Opening - establishing the sibling bond in their magical world.
+payoff: Journey into new territory begins with dramatic departure from familiar world.
 
 # Short description of what happens on this page
-description: Cullan and Emer explore a sun-dappled clearing by a stream in the Hidden Forest, their familiar playground.
+description: Cullan and Emer venture into the deep, unfamiliar forest together and meet a flashy fox who promises to help them.
 
 # Visual description for the illustrator
 visual: |
-  A sun-dappled clearing in the Hidden Forest, where a crystal-clear stream winds
-  through moss-covered stones. Cullan sits on a large flat rock near the water's edge,
-  his camera resting beside him, watching his sister with a gentle, protective smile.
-  Emer dances nearby, her curly blonde hair catching the golden light filtering through
-  the forest canopy. She's twirling with her arms outstretched, laughing, her dress
-  swirling around her. Painted stones are scattered around her—her artistic creations
-  from earlier. The forest surrounds them with rich greens and blues, waterfalls visible
-  in the misty distance. The scene is peaceful yet full of life, showing their comfort
-  in this magical place. Cullan's piercing blue eyes reflect both contentment and a hint
-  of watchfulness, while Emer's expression is pure joy. The composition uses warm light
-  to emphasize the safety and warmth of their relationship.
+  The forest has grown wild and dense here, with twisted vines hanging from towering trees
+  and strange, oversized ferns creating an almost jungle-like atmosphere. Cullan and Emer
+  stand close together in a small clearing—Cullan protective, one hand on Emer's shoulder,
+  while Emer looks around with wide-eyed wonder mixed with slight apprehension. Before them
+  struts a magnificent red fox with an almost theatrical air, its tail held high, its
+  expression supremely confident and charming. The fox is gesturing with one paw, as if
+  offering guidance. The light here is different from their familiar forest—greener,
+  stranger, with odd plants that seem to glow faintly. In the background, massive waterfalls
+  cascade from impossible heights, their mist creating rainbow effects. Emer clutches one of
+  her painted stones, a small comfort in this unfamiliar place. Cullan's blue eyes show both
+  his protective instinct and growing caution about the fox's overconfident demeanor. Small
+  details include unusual insects with iridescent wings, mushrooms in impossible colors, and
+  the contrast between the siblings' cautious body language and the fox's breezy confidence.
+  The composition emphasizes both their bond and their venture into unknown territory.
 
 # The text that appears on the page
 text: |
-  In the heart of the Hidden Forest, Cullan watched his little sister Emer twirl
-  and laugh in their special clearing. This was their world, where they were free
-  to be exactly who they were.
+  Deep in the unfamiliar forest, Cullan and Emer met a fox who promised to show them
+  the way. "I know exactly where you need to go," the fox said with a flourish, but
+  something in its smile made Cullan hold Emer's hand a little tighter.

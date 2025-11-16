@@ -1,0 +1,44 @@
+# Cullan's Page - Spread 6
+# Page ID must match the filename
+id: cu-06
+
+# Which spread in the story arc (1-12)
+spread: 6
+
+# Story beat for this page
+beat: "Midpoint: new insight / pattern"
+
+# Hook to draw readers forward
+hook: A pattern or clue emerges, suggesting a new direction based on observation.
+
+# Payoff from previous pages
+payoff: The suggested solution fails spectacularly and obviously wrong.
+
+# Brief description of the scene
+description: After the fox's path leads nowhere, Cullan sits quietly and notices how the small forest creatures—mice and birds—navigate the stream using a network of low branches and roots.
+
+# Visual description for the illustrator
+visual: |
+  Cullan sits on a moss-covered boulder near the stream, his camera temporarily forgotten in
+  his lap, his expression thoughtful and observant. The chaos of the failed fox's route is
+  behind him—a tangle of broken branches and disturbed undergrowth. But here, in this quiet
+  moment, he's watching something important. In the middle distance, small creatures are
+  crossing the stream: a family of field mice scampering along a low-hanging willow branch
+  that dips close to the water's surface, then leaping to an exposed root system, then to
+  another branch. A bright blue jay follows the same path, hopping from branch to root to
+  branch. The pattern is clear once you see it—nature has created its own highway, low and
+  close to the water, using the living structures of trees rather than dead stepping stones.
+  Sunlight breaks through the canopy here, illuminating the crossing points like a revelation.
+  Cullan's blue eyes are bright with understanding, his gentle smile returning as he pieces
+  together the solution. His hand is reaching for his camera, ready to document what he's
+  learned. The scene is filled with carefully observed detail: water droplets catching light
+  on leaves, tiny paw prints on bark, the intricate weave of root systems. The composition
+  emphasizes the contrast between Cullan's stillness and the busy, confident movement of the
+  small creatures who know the forest's secrets. In the background, the glowing mushrooms are
+  still visible across the stream—the goal still waiting, but now seeming more achievable.
+
+# Story text - MAXIMUM 2 SENTENCES
+text: |
+  Cullan sat still and watched the mice and birds cross the stream using low branches and
+  exposed roots, never touching the slippery stones at all. "The forest has its own paths,"
+  he whispered, finally understanding.

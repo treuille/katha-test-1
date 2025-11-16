@@ -1,0 +1,41 @@
+# Cullan's Page - Spread 3
+# Page ID must match the filename
+id: cu-03
+
+# Which spread in the story arc (1-12)
+spread: 3
+
+# Story beat for this page
+beat: "Attempt #1 (simple/obvious)"
+
+# Hook to draw readers forward
+hook: Simple solutions fail, prompting the question of who might have better answers.
+
+# Payoff from previous pages
+payoff: The wider world opens up with multiple options and first plan emerges.
+
+# Brief description of the scene
+description: Cullan tries to find a way across a wide stream to photograph a rare glowing mushroom on the other side, but the obvious stepping stones prove unstable.
+
+# Visual description for the illustrator
+visual: |
+  Cullan stands at the edge of a wide, fast-flowing stream in the Hidden Forest, his camera
+  hanging around his neck. Across the water, on the far bank, a cluster of luminescent
+  mushrooms glow with an ethereal blue-green light that seems to pulse gently. The mushrooms
+  are exactly what Cullan has been searching for—the perfect subject for his photography.
+  In the foreground, Cullan has one foot tentatively placed on what appeared to be a stable
+  stepping stone, but it's wobbling dangerously beneath him. His arms are outstretched for
+  balance, his blue eyes wide with concentration and a hint of frustration. Several other
+  moss-covered stones dot the stream, but they're either too far apart or visibly slick with
+  water. The stream rushes between them, white foam suggesting the current's strength. Behind
+  Cullan, the forest is dense with detail—tiny birds watching from branches, beetles on bark,
+  and the dappled afternoon light filtering through the canopy. His blonde hair is slightly
+  windswept, and his expression captures that moment of realization that the simple path won't
+  work. The composition emphasizes the distance between Cullan and his goal, with the glowing
+  mushrooms drawing the eye across the challenging water.
+
+# Story text - MAXIMUM 2 SENTENCES
+text: |
+  Cullan spotted the glowing mushrooms across the stream—the perfect photograph—but
+  the stepping stones were too slippery and unstable to cross. He stepped back from
+  the wobbling stone, frowning in thought.

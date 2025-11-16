@@ -1,0 +1,51 @@
+# Cullan's Page - Spread 12
+# Page ID must match the filename
+id: cu-12
+
+# Which spread in the story arc (1-12)
+spread: 12
+
+# Story beat for this page
+beat: "Resolution (emotional) + series button"
+
+# Hook to draw readers forward
+hook: Final moment of reflection showing ongoing connection or meaning.
+
+# Payoff from previous pages
+payoff: Landing complete - ordinary world echoes opening but transformed.
+
+# Brief description of the scene
+description: Back in the familiar clearing from the beginning, Cullan shares the photograph with Emer, and together they look at the beauty they helped create, their bond deeper than before.
+
+# Visual description for the illustrator
+visual: |
+  The sun-dappled clearing from Spread 1, but now it's later in the day—late afternoon light
+  creating longer, warmer shadows. Cullan and Emer sit together on the large flat rock by the
+  stream, their heads close together as they look at the photograph of the glowing mushrooms.
+  The scene mirrors the opening but with subtle, important differences that show transformation.
+  Emer holds the photograph carefully, her eyes wide with wonder, while Cullan watches her
+  reaction with his gentle, protective smile—but there's something new in his expression now:
+  a quiet confidence, a deeper understanding. Between them on the rock sits Emer's painted
+  stone, cleaned and returned, placed with honor. The forest around them is the same—their
+  safe, magical clearing—but we see it now with the appreciation Cullan has gained: the tiny
+  details, the natural paths, the way everything connects. In the background, we can see
+  Cullan's camera and a few other photographs he's developing—images of the journey: the owl,
+  the willow branches, the stream. Emer's painted stones are still scattered around, but now
+  one of them has a new decoration—she's added a tiny painted glowing mushroom to honor his
+  story. The waterfalls in the distant mist, the moss-covered stones, the crystal-clear
+  stream—all remain, but they're seen through eyes that better understand both challenge and
+  connection. Cullan's arm is around Emer's shoulders in a brotherly protective gesture, and
+  her hand touches his arm in return. Small details include: new photographs drying on a line
+  nearby, Emer's art supplies ready for more painting, a small jar where she's collected some
+  of her own glowing mushrooms from the clearing, and visible in Cullan's other pocket, his
+  notebook with sketches and notes from his journey. The composition creates a sense of
+  completion and continuity—the same clearing, the same love, but deeper now. The final image
+  suggests ongoing adventures to come, with both children looking not just at the photograph
+  but toward something in the forest beyond, as if already imagining the next discovery.
+
+# Story text - MAXIMUM 2 SENTENCES
+text: |
+  In their clearing, Cullan showed Emer the photograph, and she traced the glowing mushrooms
+  with gentle fingers, understanding without words what the journey had meant. The Hidden
+  Forest stretched endlessly around them, full of infinite wonders still waiting to be
+  discovered together.

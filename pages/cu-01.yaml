@@ -1,0 +1,45 @@
+# Cullan's Page - Spread 1
+# Page ID must match the filename
+id: cu-01
+
+# Which spread in the story arc (1-12)
+spread: 1
+
+# Story beat for this page
+beat: "Ordinary world + desire hint"
+
+# Hook to draw readers forward
+hook: Something new or unusual appears, creating curiosity about what it is.
+
+# Payoff from previous pages
+payoff: Opening - introducing Cullan in his ordinary world.
+
+# Brief description of the scene
+description: Cullan sits alone in his favorite forest spot, camera in hand, photographing the ordinary details around him, but feeling restless for something more.
+
+# Visual description for the illustrator
+visual: |
+  A peaceful corner of the Hidden Forest bathed in soft morning light. Thirteen-year-old
+  Cullan sits cross-legged on a moss-covered log, his camera raised to his eye as he
+  photographs a cluster of ordinary mushrooms growing on a nearby tree. His bouncy blonde
+  hair catches the golden light, and his piercing blue eyes are focused through the viewfinder.
+  Around him, the forest is beautiful but familiar—he knows every tree, every rock, every
+  stream in this area. His backpack rests beside him with a well-worn fantasy novel peeking
+  out. Scattered around are a few photographs he's already taken and developed—all technically
+  perfect but somehow lacking magic. The composition shows Cullan's gentle, introspective
+  nature, but also a subtle restlessness in his posture. In the background, a crystal stream
+  babbles past, waterfalls cascade in the distance, and small forest creatures go about their
+  business—mice, birds, beetles. Everything is safe, known, comfortable. But Cullan's
+  expression reveals a quiet longing for something extraordinary, something worth the perfect
+  photograph. The scene captures that moment before adventure begins, when the ordinary world
+  feels just slightly too small. Details include: his careful handling of the camera, the
+  technical precision of his composition, a half-eaten pancake wrapped in cloth (breakfast
+  from home), and the way his eyes keep drifting beyond what's in his viewfinder, searching
+  for something more.
+
+# Story text - MAXIMUM 2 SENTENCES
+text: |
+  Cullan photographed the same mushrooms he'd captured a dozen times before, each shot
+  technically perfect but missing something he couldn't name. He lowered his camera and
+  gazed deeper into the forest, wondering if there was anything truly extraordinary left
+  to find.

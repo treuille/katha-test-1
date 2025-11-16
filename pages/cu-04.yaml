@@ -1,0 +1,41 @@
+# Cullan's Page - Spread 4
+# Page ID must match the filename
+id: cu-04
+
+# Which spread in the story arc (1-12)
+spread: 4
+
+# Story beat for this page
+beat: "Attempt #2 (ask the expert)"
+
+# Hook to draw readers forward
+hook: Guidance points toward unfamiliar territory with a warning about danger or difficulty.
+
+# Payoff from previous pages
+payoff: A wise helper appears who offers new perspective or guidance.
+
+# Brief description of the scene
+description: Cullan encounters a wise old owl who suggests finding the ancient fallen log bridge deeper in the forest, but warns that the path is unfamiliar and difficult.
+
+# Visual description for the illustrator
+visual: |
+  In a hollow of an enormous ancient tree, a magnificent great horned owl perches on a gnarled
+  branch, its amber eyes wise and knowing. Cullan stands below, looking up with respectful
+  attention, his camera still around his neck. The owl's feathers are rendered in extraordinary
+  detail—each barred pattern, each tuft carefully drawn. Around them, the forest is growing
+  dimmer as afternoon turns to early evening, with shafts of golden light creating dramatic
+  shadows. The owl gestures with one wing toward the deeper forest, where the trees grow
+  denser and the light doesn't penetrate as easily. Cullan's expression is a mix of hope and
+  uncertainty—his gentle nature showing in his respectful posture, but his blue eyes reveal
+  a hint of worry about venturing into unfamiliar territory. Small details surround them: a
+  family of mice listening from a nearby branch, intricate moss patterns on the tree bark, and
+  tiny luminescent beetles beginning to glow as twilight approaches. The composition creates
+  a sense of mentorship and wisdom being passed down, while also hinting at the more
+  challenging path ahead. The owl's tree hollow is lined with collected treasures—interesting
+  stones, feathers, and small objects that speak to long years of forest wisdom.
+
+# Story text - MAXIMUM 2 SENTENCES
+text: |
+  "There's an ancient log bridge in the deep forest," the wise owl said, "but the path
+  is tangled and few venture there." Cullan thanked her and turned toward the darker,
+  unfamiliar woods with determination in his eyes.
