@@ -7,21 +7,23 @@ beat: "Attempt #1 (simple/obvious)"
 hook: "Simple solutions fail, prompting the question of who might have better answers."
 payoff: "A wise helper appears who offers new perspective or guidance."
 
-description: "Hansel tries to reach a beautiful dancing butterfly but his simple toddler attempts don't work."
+description: "Deeper in the forest now, Hansel tries to catch the butterfly but his simple toddler attempts don't work."
 
 visual: |
-  In a sun-dappled garden clearing, one-year-old Hansel stands on his wobbly
-  legs, arms stretched high overhead, reaching for a beautiful iridescent butterfly
-  that dances just out of reach. His face shows pure determination mixed with his
-  characteristic bright smile. Around his feet are scattered attempts to reach
-  higher - a small wooden block he tried to stand on, a red pyramid knocked over,
-  a blue cube rolled to the side. The butterfly floats gracefully above him,
-  sunlight making its wings shimmer with rainbow colors. Hansel bounces on his
-  toes, his whole body engaged in the effort, but the butterfly stays tantalizingly
-  beyond his grasp. Flower petals drift around the scene, and soft grass cushions
-  his unsteady stance.
+  Deeper into the forest, past where Cullan waved goodbye, one-year-old Hansel
+  stands in a small clearing dappled with sunlight filtering through the trees.
+  His wobbly legs carry him in excited circles as he reaches high overhead for
+  the beautiful iridescent butterfly that dances just out of reach. His face shows
+  pure determination mixed with his characteristic bright smile. He tries jumping,
+  his whole body engaged in the effort. He tries standing on a fallen log, but
+  wobbles and hops down. He even tries using the blue pyramid he still clutches
+  to reach higher, holding it up like a tiny tower, but the butterfly floats
+  gracefully just beyond his grasp, sunlight making its wings shimmer with rainbow
+  colors. The forest around him is growing less familiar - taller trees, deeper
+  shadows, wilder flowers. But the butterfly beckons him forward still.
 
 text: |
-  Hansel jumped and reached for the pretty butterfly, stretching as high as his
-  little arms could go. He even tried standing on his blue block, but it rolled
-  away and the butterfly danced higher!
+  Hansel chased the butterfly deeper into the forest. He jumped and reached, stretching
+  as high as his little arms could go! He tried standing on a log, he tried using his
+  blue pyramid to reach higher, but the butterfly just danced away, always just beyond
+  his fingers!
