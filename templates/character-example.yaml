@@ -9,7 +9,7 @@
 #   python3 scripts/show_story.py <character-code>
 #
 # If you encounter any issues with page formatting or consistency, run:
-#   python3 scripts/test_consistency.py
+#   python3 scripts/validate_structure.py
 # ---
 #
 # Id is a two character code for the character

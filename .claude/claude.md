@@ -13,10 +13,10 @@ A modular storybook system for creating interconnected children's stories across
    - Never manually read and display pages - the script does it correctly
    - Example: `python3 scripts/show_story.py cu`
 
-2. **`scripts/test_consistency.py`** - Validate page formatting and consistency
+2. **`scripts/validate_structure.py`** - Validate repository structure and formatting
    - Run after creating/modifying characters or pages
    - Validates formatting, page existence, and constraints
-   - Example: `python3 scripts/test_consistency.py`
+   - Example: `python3 scripts/validate_structure.py`
 
 ## Steps
 
@@ -35,7 +35,7 @@ world
    #   python3 scripts/show_story.py <character-code>
    #
    # If you encounter any issues with page formatting or consistency, run:
-   #   python3 scripts/test_consistency.py
+   #   python3 scripts/validate_structure.py
    ```
    Replace `<character-code>` with the actual two-letter character code.
 6. **Do not leak any example data** from the template into the new character
@@ -118,19 +118,19 @@ world
    - **Format**: Use filename only with `.yaml` extension (e.g., `- cu-01.yaml`, `- cu-ma-07.yaml`)
    - **Do NOT** include the `pages/` folder prefix (e.g., NOT `- pages/cu-01.yaml`)
 
-### Testing Page Consistency
+### Validating Repository Structure
 
-Before showing stories or making significant changes, you can run the consistency test script to validate that all pages are properly formatted:
+Before showing stories or making significant changes, you can run the structure validation script to validate that all pages are properly formatted:
 
 ```bash
-python3 scripts/test_consistency.py
+python3 scripts/validate_structure.py
 ```
 
 This script validates:
 - At least one character exists
 - Page references are properly formatted (filename.yaml without path prefix)
 - All referenced pages exist
-- No overlaps on legal pages 1, 11, and 12
+- Spreads 1, 11, and 12 are character-specific (no overlaps)
 - No stray pages in the pages directory
 - All page YAML files are valid
 - Characters have 12 pages

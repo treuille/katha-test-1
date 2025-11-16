@@ -57,18 +57,18 @@ Examples:
 
 The script displays all pages in order, including description, visual, and text fields, plus an analysis of overlaps with other characters showing before/after context.
 
-### Test Page Consistency
+### Validate Repository Structure
 
-To verify all pages are properly formatted and consistent:
+To verify repository structure and that all pages are properly formatted:
 
 ```bash
-python3 scripts/test_consistency.py
+python3 scripts/validate_structure.py
 ```
 
 This validates:
 - Page formatting (correct extensions, no path prefixes)
 - All referenced pages exist
-- No overlaps on legal pages 1, 11, and 12
+- Spreads 1, 11, and 12 are character-specific (no overlaps)
 - No stray pages in the pages directory
 - YAML validity
 
@@ -82,7 +82,8 @@ The script exits with code 0 on success, 1 on failure, with color-coded error me
 - `templates/` - Example files that serve as both templates and schemas
 - `scripts/` - Utility scripts for repository management
   - `pull-from-base.sh` - Safely pulls latest changes from katha-base to forked repositories
-  - `show_story.py` - Display a character's complete story with overlap analysis (usage: `python scripts/show_story.py <character-code>`)
+  - `show_story.py` - Display a character's complete story with overlap analysis (usage: `python3 scripts/show_story.py <character-code>`)
+  - `validate_structure.py` - Validate repository structure and formatting (usage: `python3 scripts/validate_structure.py`)
 - `.claude/` - Project documentation
 
 ## File Naming
