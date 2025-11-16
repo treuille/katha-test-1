@@ -1,0 +1,45 @@
+# Shared Page: Cullan and Hansel Meet
+# Page ID must match the filename
+id: cu-ha-02
+
+# Which spread in the story arc (1-12)
+spread: 2
+
+# Story beat for this page
+beat: "Cullan discovers Hansel in the clearing and their bond begins"
+
+# Hook to draw readers forward
+hook: "What adventures will they share together?"
+
+# Payoff from previous pages
+payoff: "The two cousins find each other in the forest"
+
+# Brief description of the scene
+description: "Cullan finds Hansel playing with geometric shapes and sits down to watch over him"
+
+# Visual description that works from both character perspectives
+visual: |
+  A peaceful forest clearing bathed in warm afternoon sunlight. Thirteen-year-old
+  Cullan approaches and sits on soft moss, his bouncy blonde hair catching the light,
+  his piercing blue eyes gentle and watchful. His lanky frame is relaxed but attentive.
+  Before him, one-year-old Hansel sits surrounded by colorful geometric objects—cubes,
+  spheres, pyramids—each one catching his delighted attention. Hansel's face radiates
+  pure joy, his signature smile bright as he reaches for a bright blue cube. The scene
+  captures a moment of quiet protection and innocent wonder, with dappled shadows
+  dancing across them both.
+
+# Story text that works whether read from Cullan's book or Hansel's book
+text: |
+  Cullan heard the giggling before he saw anything. Following the sound through
+  the trees, he stepped into the clearing and stopped. There was Hansel, his little
+  cousin, surrounded by colorful geometric shapes, laughing with pure delight.
+
+  "Hansel?" Cullan said softly, setting down his camera and moving closer. The
+  toddler looked up with that constant, easy grin, and Cullan felt his heart warm.
+
+  "You're really something, little guy," Cullan said, sitting down on the moss
+  beside him. Hansel's eyes lit up as he picked up the blue cube, then laughed
+  when the yellow sphere rolled away.
+
+  Hansel reached toward Cullan, offering him a red pyramid. And Cullan, taking
+  it carefully, knew this was just the beginning of their adventures together.
