@@ -9,31 +9,35 @@ spread: 2
 beat: "Discovery revealed (Cullan) / Arrival and brief rest (Hansel)"
 
 # Hook to draw readers forward
-hook: "The butterfly reappears - will Hansel keep following it deeper into the forest?"
+hook: "After the rescue, the butterfly reappears - will Hansel keep following it deeper into the forest?"
 
 # Payoff from previous pages
-payoff: "Cullan: The giggling reveals his little cousin on an adventure. Hansel: The butterfly leads him to a safe clearing and a familiar face."
+payoff: "Cullan: The crying leads him to an extraordinary moment - rescuing his little cousin! Hansel: The butterfly's magical path leads to danger, then to safety and a familiar face."
 
 # Brief description of the scene
-description: "Cullan, exploring the forest with his camera, discovers Hansel who has followed a butterfly into the woods. They share a brief, warm moment before the butterfly beckons Hansel onward."
+description: "Cullan, searching for something extraordinary to photograph, hears frightened crying and discovers Hansel stranded on a boulder above a rushing stream, reaching for the butterfly. He carefully rescues him."
 
 # Visual description that works from both character perspectives
 visual: |
-  A sun-dappled forest clearing where the garden ends and the wild woods begin.
-  Thirteen-year-old Cullan emerges from the tree line, his camera hanging around his
-  neck, bouncy blonde hair catching the afternoon light. His piercing blue eyes widen
-  with gentle surprise as he spots one-year-old Hansel sitting on the soft moss.
-  Hansel is surrounded by objects he's found - pinecones, smooth stones, interesting
-  twigs arranged like his geometric toys at home. He still clutches the blue pyramid
-  he brought from his room. His signature bright smile radiates pure joy as he looks
-  up at his cousin and offers him a pinecone. The beautiful butterfly that led Hansel
-  here rests on a nearby flower, its wings shimmering. Cullan kneels down with a
-  protective, loving smile, but even as they share this moment, the butterfly begins
-  to flutter deeper into the forest, catching Hansel's eye.
+  A dramatic forest scene where a crystal-clear stream rushes over smooth rocks, creating
+  small rapids and foam. One-year-old Hansel stands atop a large moss-covered boulder in
+  the middle of the current, his eyes wide and frightened, one hand reaching toward the
+  beautiful butterfly that hovers just beyond his grasp above the water. His other hand
+  clutches his blue pyramid toy tight against his chest. The boulder is too tall for him
+  to climb down safely - the water swirls fast below. His characteristic smile is gone,
+  replaced with scared uncertainty as he teeters near the edge. Thirteen-year-old Cullan
+  appears on the bank, his camera swinging from his neck as he moves urgently but carefully.
+  His piercing blue eyes show both concern and determination. Without hesitation, Cullan
+  steps onto the slippery rocks, arms out for balance, water splashing around his shoes.
+  He reaches up to Hansel with gentle, reassuring hands. The moment Cullan lifts him down
+  to safety, Hansel's bright smile floods back. They stand together in the shallow water
+  near the bank - Cullan protective and relieved, Hansel clinging to his cousin with one
+  hand while the other points excitedly at the butterfly, which now rests on a nearby
+  flower as if it had been waiting for them all along.
 
 # Story text that works whether read from Cullan's book or Hansel's book
 text: |
-  Cullan was exploring the forest with his camera when he heard familiar giggling.
-  There was Hansel, who had wandered out following a butterfly! The little one offered
-  Cullan a pinecone with his biggest smile. Cullan ruffled his hair gently - but then
-  the butterfly danced away deeper into the woods, and Hansel toddle-ran after it again.
+  Cullan heard frightened crying from the stream - there was little Hansel, stuck on a
+  boulder reaching for a butterfly! Cullan carefully climbed across the slippery rocks
+  and lifted him down to safety. The moment Hansel was safe in his cousin's arms, his
+  big smile returned - and he pointed excitedly as the butterfly danced deeper into the woods.
