@@ -1,0 +1,59 @@
+# The Hidden Forest
+# A magical, endless woodland realm filled with water, wonder, and whimsy
+
+name: The Hidden Forest
+
+# What makes this world interesting?
+# What draws people in? What's unique or captivating about it?
+what_makes_it_interesting:
+  - Water flows everywhere—cascading waterfalls, babbling streams, and mysterious pools appear around every corner
+  - The forest feels infinite, stretching endlessly in all directions with no clear way out, creating a dreamlike sense of being delightfully lost
+  - Strange and wonderful creatures inhabit every nook—some familiar, some utterly bizarre, all fascinating to discover
+  - Bears and other forest animals behave in unexpected and humorous ways, becoming companions and tricksters in equal measure
+  - Every tree, rock, and patch of moss seems to hide tiny details waiting to be noticed—miniature worlds within the world
+
+# What's the visual style?
+# How does this world look? What's the aesthetic, color palette, atmosphere?
+visual_style:
+  - Hand-drawn with extraordinary attention to detail—every leaf, every pebble lovingly rendered
+  - Watercolor washes overlay the detailed linework, creating a dreamy, fluid atmosphere that echoes the watery environment
+  - Small animals and plants cover every surface—mice peeking from hollows, beetles on bark, moss creeping over stones, tiny flowers in unexpected places
+  - Rich greens and blues dominate, with splashes of unexpected color from flowers, fungi, and peculiar creatures
+  - Light filters through the canopy in dappled patterns, creating pools of golden warmth amid cool shadows
+
+# What makes it mysterious?
+# What secrets does this world hold? What questions remain unanswered?
+what_makes_it_mysterious:
+  - No one has ever found the edge of the Hidden Forest—it simply continues, always promising one more discovery just ahead
+  - The water seems to flow from nowhere and to nowhere, defying the usual logic of streams and rivers
+  - Paths that seem familiar suddenly become strange; landmarks shift when you're not looking
+  - The weird creatures appear and disappear without explanation—where do they come from? What are they?
+  - Time feels different here—a day might pass like an hour, or an hour stretch like a day
+
+# What might the reader not already know about the world when they first encounter it?
+# What surprising truths or hidden aspects will be revealed over time?
+hidden_aspects:
+  - The forest responds to those who explore it with curiosity rather than fear—the more you notice, the more there is to see
+  - The bears, despite their size and apparent power, are actually gentle guardians who enjoy pranks and play as much as any child
+  - Certain waterfalls flow upward when moonlight touches them, leading to hidden groves high in the canopy
+  - The tiniest creatures—the beetles, mice, and birds—often know the most important secrets
+  - The feeling of being "lost" isn't dangerous here; it's the point—the forest only reveals its wonders to those willing to wander
+
+# How is it similar to the world that we live in?
+# What familiar elements help readers connect with this world?
+similarities_to_our_world:
+  - Real forest animals live here—deer, rabbits, birds, bears, foxes—behaving in recognizable ways (mostly)
+  - Water flows and pools according to natural laws (when it wants to)
+  - Trees grow, flowers bloom, seasons change with familiar rhythms
+  - The feeling of wonder when discovering something unexpected in nature
+  - Friends can explore together, sharing discoveries and adventures
+
+# How is it different from the world that we live in?
+# What sets this world apart? What rules or properties make it unique?
+differences_from_our_world:
+  - The forest has no boundaries—it is truly endless, an infinite woodland that goes on forever
+  - Creatures here include not just normal animals but weird and wonderful beings found nowhere else
+  - The abundance of water defies normal geography—waterfalls appear where they shouldn't, streams flow in impossible directions
+  - Getting lost isn't frightening; it's an invitation to adventure and discovery
+  - Animals are more likely to engage with you—to play, trick, help, or simply share a moment of connection
+  - Time and space feel fluid, flexible, responsive to wonder rather than ruled by rigid laws
