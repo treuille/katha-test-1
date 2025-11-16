@@ -1,0 +1,28 @@
+# Emer's Page 1
+# Opening - Emer painting in the forest
+
+id: em-01
+spread: 1
+beat: "Ordinary world + desire hint"
+hook: Something new or unusual appears, creating curiosity about what it is.
+payoff: The discovery is fully revealed, establishing the story goal.
+
+description: Emer paints happily in a quiet corner of the Hidden Forest, expressing her creativity and joy.
+
+visual: |
+  A peaceful corner of the Hidden Forest where Emer sits cross-legged on soft moss,
+  surrounded by her painting supplies. Her curly blonde hair is tied back with a
+  colorful ribbon, and she's deeply focused on painting a watercolor of the forest
+  around her - trees, flowers, and streams in vibrant colors. Her paintings are
+  scattered around her on the moss, each one showing her creative vision of the
+  magical forest. The setting is intimate and quiet, rendered in loving detail with
+  every fern, every pebble, every flower carefully depicted. Soft morning light
+  filters through the canopy, creating a warm, golden glow. Small forest creatures -
+  a rabbit, two mice, a curious squirrel - watch her from nearby, drawn by her
+  peaceful presence. The forest streams babble gently in the background. Emer's
+  expression shows pure contentment and focus - this is her happy place.
+
+text: |
+  Emer loved painting in the Hidden Forest, where every tree and stream became
+  colors on her paper. This morning felt especially magical, like something wonderful
+  was about to happen.

@@ -78,5 +78,15 @@ attributes:
 # Initially this list is empty when we create the character, but it
 # will get filled after we run the right /commands to get all the pages built.
 story:
+  - em-01
+  - em-02
+  - em-03
+  - em-04
   - cu-em-05
-  - em-ha-07.yaml
+  - em-06
+  - em-ha-07
+  - em-08
+  - em-09
+  - em-10
+  - em-11
+  - em-12
