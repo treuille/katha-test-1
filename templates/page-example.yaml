@@ -24,10 +24,11 @@ hook: Simple solutions fail, prompting the question of who might have better ans
 # Initially, copy this from `templates/story-template.yaml` for this thread
 payoff: A wise helper appears who offers new perspective or guidance.
 
-# This is a short (1-2 sentences, which describes what you see on the page.
+# This is a short (1-2 sentences) which describes what you see on the page.
 description: Cullan tries to climb up the ladder but finds it too slippery.
 
 # This what you see in the story
+# The visual description can be very long and detailed to convey the scene
 visual: |
   Cullan is shown slipping off the ladder, with a look of surprise on his face.
   The ladder is propped against a tall tree, its rungs glistening with morning dew.
@@ -39,5 +40,6 @@ visual: |
   a dynamic diagonal to emphasize the motion and precariousness of the moment.
 
 # This what the text says on the page
+# IMPORTANT: Keep text to 2 sentences maximum. Be concise.
 text: |
   Cullan stepped onto the ladder, but found that it was too slippery to climb.
