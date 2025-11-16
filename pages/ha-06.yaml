@@ -1,0 +1,27 @@
+# Character: Hansel
+# Spread 6 - Midpoint: New Insight
+
+id: ha-06
+spread: 6
+beat: "Midpoint: new insight / pattern"
+hook: "A pattern or clue emerges, suggesting a new direction based on observation."
+payoff: "New approach is tried based on the insight from previous spread."
+
+description: "Hansel watches carefully and notices the butterfly always lands on bright flowers, revealing a pattern."
+
+visual: |
+  A moment of quiet observation in the forest. One-year-old Hansel sits very still
+  on a mossy log, his usual bouncy energy transformed into focused attention. His
+  bright eyes track the butterfly as it moves through the air, and his expression
+  shows the dawning of understanding - his characteristic smile now tinged with
+  wonder and discovery. Around him, the forest reveals its patterns: bright yellow,
+  purple, and orange flowers dot the landscape, and the butterfly lands on each
+  colorful bloom in sequence. Hansel's small hand points toward a particularly
+  vibrant patch of flowers ahead. Geometric shapes of nature echo his toy
+  collection - round flower heads, cone-shaped blooms, spherical seed pods.
+  Sunlight breaks through the canopy in clear rays, illuminating the path forward
+  marked by flowers.
+
+text: |
+  Hansel sat very still and watched where the butterfly went. Every single time,
+  it landed on the brightest, most colorful flowers!

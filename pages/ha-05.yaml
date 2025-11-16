@@ -1,0 +1,27 @@
+# Character: Hansel
+# Spread 5 - Bigger World / Stakes Up
+
+id: ha-05
+spread: 5
+beat: "Attempt #3 (bigger world / stakes up)"
+hook: "Questionable character offers confident solution, creating doubt about whether to trust them."
+payoff: "The suggested solution fails spectacularly and obviously wrong."
+
+description: "Deep in the unfamiliar forest, Hansel meets a mischievous fox who confidently offers to help but seems unreliable."
+
+visual: |
+  Deep in the mysterious forest where unfamiliar trees tower overhead and shadows
+  dance. One-year-old Hansel toddles along a winding path, his confident smile
+  now mixed with uncertainty. Before him stands a sleek red fox with a too-wide
+  grin and gleaming eyes that suggest mischief rather than helpfulness. The fox
+  gestures dramatically with his paw toward a dark, tangled thicket of thorns and
+  brambles, clearly the wrong direction. The beautiful butterfly Hansel has been
+  following hovers uncertainly nearby. The forest feels bigger and wilder here -
+  mushrooms dot the forest floor, strange flowers bloom in unusual colors, and the
+  path forks in multiple confusing directions. Time seems to press as afternoon
+  light begins to fade, casting longer shadows.
+
+text: |
+  A clever-looking fox appeared with a swish of his bushy tail and pointed toward
+  the thorny thicket. "That's definitely the way to catch butterflies!" he said
+  with a grin that showed too many teeth.

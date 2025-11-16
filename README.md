@@ -37,6 +37,7 @@ For each of these steps, just ask claude to do it for you, and it will prompt yo
 2. Create the world.
 3. Bind characters together by creating shared interaction pages.
 4. Create all pages for each character (one character at a time).
+5. Show and critique each character's story to refine and improve it. You can say, for example, "Show me Cullan's story."
 
 ## Structure
 
@@ -44,6 +45,8 @@ For each of these steps, just ask claude to do it for you, and it will prompt yo
 - `characters/` - Character files (each is a storybook with attributes + page list)
 - `pages/` - Individual story pages (YAML with markdown content + image prompts)
 - `templates/` - Example files that serve as both templates and schemas
+- `scripts/` - Utility scripts for repository management
+  - `pull-from-base.sh` - Safely pulls latest changes from katha-base to forked repositories
 - `.claude/` - Project documentation
 
 ## File Naming
