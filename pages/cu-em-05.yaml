@@ -1,0 +1,42 @@
+# Shared page for Cullan and Emer
+# First page of Spread 1 - establishing their bond in the Hidden Forest
+
+# The ID matches the filename
+id: cu-em-05
+
+# See `templates/story-template.yaml` for documentation
+spread: 1
+
+# Ultra-short description of where we are in the story
+beat: "Ordinary world + desire hint"
+
+# What hooks them into the next page
+hook: Something new or unusual appears, creating curiosity about what it is.
+
+# What this page pays off from the previous spread
+payoff: Opening - establishing the sibling bond in their magical world.
+
+# Short description of what happens on this page
+description: Cullan and Emer explore a sun-dappled clearing by a stream in the Hidden Forest, their familiar playground.
+
+# Visual description for the illustrator
+visual: |
+  A sun-dappled clearing in the Hidden Forest, where a crystal-clear stream winds
+  through moss-covered stones. Cullan sits on a large flat rock near the water's edge,
+  his camera resting beside him, watching his sister with a gentle, protective smile.
+  Emer dances nearby, her curly blonde hair catching the golden light filtering through
+  the forest canopy. She's twirling with her arms outstretched, laughing, her dress
+  swirling around her. Painted stones are scattered around her—her artistic creations
+  from earlier. The forest surrounds them with rich greens and blues, waterfalls visible
+  in the misty distance. The scene is peaceful yet full of life, showing their comfort
+  in this magical place. Cullan's piercing blue eyes reflect both contentment and a hint
+  of watchfulness, while Emer's expression is pure joy. The composition uses warm light
+  to emphasize the safety and warmth of their relationship.
+
+# The text that appears on the page
+text: |
+  In the heart of the Hidden Forest, where sunlight dances on stream water and trees
+  whisper ancient secrets, Cullan watched his little sister Emer twirl and laugh.
+  This clearing was their special place—a world within a world where they were free
+  to be exactly who they were. Cullan felt a familiar warmth in his chest, the kind
+  that came from knowing someone needed you and you needed them just the same.

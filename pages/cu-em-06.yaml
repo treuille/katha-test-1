@@ -1,0 +1,46 @@
+# Shared page for Cullan and Emer
+# Second page of Spread 1 - discovery that will drive the story
+
+# The ID matches the filename
+id: cu-em-06
+
+# See `templates/story-template.yaml` for documentation
+spread: 1
+
+# Ultra-short description of where we are in the story
+beat: "Ordinary world + desire hint"
+
+# What hooks them into the next page
+hook: The path forward runs out or becomes unclear, raising uncertainty.
+
+# What this page pays off from the previous spread
+payoff: The discovery is fully revealed, establishing the story goal.
+
+# Short description of what happens on this page
+description: Emer discovers something mysterious glowing beneath the water, and both siblings lean in with wonder.
+
+# Visual description for the illustrator
+visual: |
+  Cullan and Emer now both crouch at the stream's edge, their faces close together,
+  reflected in the water below. Beneath the surface, something ethereal and beautiful
+  glows with a soft, otherworldly light—perhaps a cluster of luminescent stones or
+  a submerged entrance marked with ancient symbols. Emer's small hand points excitedly
+  at the glow while Cullan's protective arm is gently placed around her shoulders,
+  steadying her so she doesn't fall in. Both their faces show wonder and curiosity—
+  Emer's expression is pure excitement with wide eyes and an open-mouthed smile, while
+  Cullan's shows careful interest mixed with his instinct to keep his sister safe.
+  The glowing light from below illuminates their faces with blues and greens. Water
+  ripples create dancing patterns of light across their features. The forest seems to
+  lean in around them, as if the trees themselves are curious about what the siblings
+  have found. In the background, the mist from distant waterfalls seems to shimmer
+  with the same mysterious light.
+
+# The text that appears on the page
+text: |
+  "Cullan, look!" Emer's voice rang with excitement as she pointed at the water.
+
+  There, beneath the rippling surface, something glowed with colors they'd never seen
+  before—deeper than blue, brighter than starlight. Cullan's protective instinct kicked
+  in as he steadied his sister, but he couldn't help feeling it too: that pull of
+  mystery, that whisper of magic calling them to discover what lay hidden beneath
+  the stream they thought they knew so well.
