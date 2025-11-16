@@ -7,24 +7,22 @@ beat: "Attempt #2 (ask the expert)"
 hook: Guidance points toward unfamiliar territory with a warning about danger or difficulty.
 payoff: Journey into new territory begins with dramatic departure from familiar world.
 
-description: Emer and Hansel search the forest together, looking everywhere for the rainbow sparkles.
+description: Emer searches the forest, looking everywhere for the rainbow sparkles.
 
 visual: |
-  Emer and Hansel explore the Hidden Forest together, searching for the sparkles.
-  Emer leads the way with enthusiasm, pointing at different parts of the forest
-  while Hansel toddles along beside her, his colorful blocks tucked under one arm.
-  They peer behind waterfalls, look under mushrooms, search around twisted tree
-  roots - the composition shows them as small figures in a vast, detailed forest
-  full of places to explore. The forest is rendered in loving detail - every moss-
-  covered stone, every unusual flower, every babbling stream carefully depicted.
-  Forest creatures watch them with interest - rabbits, birds, a curious fox. Emer's
-  expression shows determination mixed with growing frustration; she so wants to
-  find the sparkles to show Hansel. Hansel, meanwhile, seems perfectly happy just
-  to be exploring with his sister, stopping to examine interesting rocks and flowers.
-  The light suggests late morning moving toward afternoon. Despite the beautiful
-  forest around them, there are no sparkles to be seen anywhere.
+  Emer explores the Hidden Forest, searching for the sparkles. She moves with
+  enthusiasm, pointing at different parts of the forest, peering behind waterfalls,
+  looking under mushrooms, searching around twisted tree roots - the composition
+  shows her as a small figure in a vast, detailed forest full of places to explore.
+  The forest is rendered in loving detail - every moss-covered stone, every unusual
+  flower, every babbling stream carefully depicted. Forest creatures watch her with
+  interest - rabbits, birds, a curious fox. Emer's expression shows determination
+  mixed with growing frustration; she so wants to find the sparkles again. She stops
+  to examine interesting rocks and flowers, hoping for a clue. The light suggests
+  late morning moving toward afternoon. Despite the beautiful forest around her,
+  there are no sparkles to be seen anywhere.
 
 text: |
-  Emer and Hansel searched everywhere for the magical sparkles - behind waterfalls,
-  under flowers, around ancient trees. But no matter where they looked, the rainbow
-  lights stayed hidden.
+  Emer searched everywhere for the magical sparkles - behind waterfalls, under
+  flowers, around ancient trees. But no matter where she looked, the rainbow lights
+  stayed hidden.
