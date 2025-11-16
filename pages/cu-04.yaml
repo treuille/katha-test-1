@@ -9,13 +9,13 @@ spread: 4
 beat: "Attempt #2 (ask the expert)"
 
 # Hook to draw readers forward
-hook: Guidance points toward unfamiliar territory with a warning about danger or difficulty.
+hook: Guidance points toward unfamiliar territory, setting up a journey into the unknown.
 
 # Payoff from previous pages
-payoff: A wise helper appears who offers new perspective or guidance.
+payoff: A wise helper appears who offers new perspective about the deep forest.
 
 # Brief description of the scene
-description: Cullan encounters a wise old owl who suggests finding the ancient fallen log bridge deeper in the forest, but warns that the path is unfamiliar and difficult.
+description: Cullan asks a wise owl about crossing the stream. She tells him the deep forest holds many paths, but warns him he's searching too hard and missing what's right in front of him.
 
 # Visual description for the illustrator
 visual: |
@@ -25,17 +25,17 @@ visual: |
   detail—each barred pattern, each tuft carefully drawn. Around them, the forest is growing
   dimmer as afternoon turns to early evening, with shafts of golden light creating dramatic
   shadows. The owl gestures with one wing toward the deeper forest, where the trees grow
-  denser and the light doesn't penetrate as easily. Cullan's expression is a mix of hope and
-  uncertainty—his gentle nature showing in his respectful posture, but his blue eyes reveal
-  a hint of worry about venturing into unfamiliar territory. Small details surround them: a
-  family of mice listening from a nearby branch, intricate moss patterns on the tree bark, and
-  tiny luminescent beetles beginning to glow as twilight approaches. The composition creates
-  a sense of mentorship and wisdom being passed down, while also hinting at the more
-  challenging path ahead. The owl's tree hollow is lined with collected treasures—interesting
-  stones, feathers, and small objects that speak to long years of forest wisdom.
+  denser and stranger. Cullan's expression shows a mix of hope and slight frustration—he wants
+  the answer NOW. The owl's expression is gently amused, as if she knows something he hasn't
+  learned yet. Small details surround them: a family of mice listening from a nearby branch,
+  intricate moss patterns on the tree bark, and tiny luminescent beetles beginning to glow as
+  twilight approaches. The composition creates a sense of mentorship, with the owl offering
+  wisdom that Cullan doesn't quite understand yet. The owl's tree hollow is lined with collected
+  treasures—interesting stones, feathers, and small objects that speak to long years of forest
+  wisdom.
 
 # Story text - MAXIMUM 2 SENTENCES
 text: |
-  "There's an ancient log bridge in the deep forest," the wise owl said, "but the path
-  is tangled and few venture there." Cullan thanked her and turned toward the darker,
-  unfamiliar woods with determination in his eyes.
+  "The deep forest knows many paths across water," the wise owl said, "but you're searching
+  too hard, young one. Sometimes the forest shows you what you need when you stop looking."
+  Cullan thanked her but headed deeper into the woods anyway, determined to find his crossing.

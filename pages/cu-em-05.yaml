@@ -11,33 +11,39 @@ spread: 5
 beat: "Attempt #3 (bigger world / stakes up)"
 
 # What hooks them into the next page
-hook: Questionable character offers confident solution, creating doubt about whether to trust them.
+hook: A loving insight leads to separation—will each child find their way alone?
 
 # What this page pays off from the previous spread
-payoff: Journey into new territory begins with dramatic departure from familiar world.
+payoff: Finding each other provides comfort and a crucial realization about what each truly needs.
 
 # Short description of what happens on this page
-description: Cullan and Emer venture into the deep, unfamiliar forest together and meet a flashy fox who promises to help them.
+description: Cullan and Emer find each other in the deep forest. When Emer paints to calm herself, sparkles appear. Cullan realizes she doesn't need his protection—she needs to follow her own joy. As a loving brother, he encourages her to go chase the sparkles alone.
 
 # Visual description for the illustrator
 visual: |
   The forest has grown wild and dense here, with twisted vines hanging from towering trees
-  and strange, oversized ferns creating an almost jungle-like atmosphere. Cullan and Emer
-  stand close together in a small clearing—Cullan protective, one hand on Emer's shoulder,
-  while Emer looks around with wide-eyed wonder mixed with slight apprehension. Before them
-  struts a magnificent red fox with an almost theatrical air, its tail held high, its
-  expression supremely confident and charming. The fox is gesturing with one paw, as if
-  offering guidance. The light here is different from their familiar forest—greener,
-  stranger, with odd plants that seem to glow faintly. In the background, massive waterfalls
-  cascade from impossible heights, their mist creating rainbow effects. Emer clutches one of
-  her painted stones, a small comfort in this unfamiliar place. Cullan's blue eyes show both
-  his protective instinct and growing caution about the fox's overconfident demeanor. Small
-  details include unusual insects with iridescent wings, mushrooms in impossible colors, and
-  the contrast between the siblings' cautious body language and the fox's breezy confidence.
-  The composition emphasizes both their bond and their venture into unknown territory.
+  and strange, oversized ferns creating an almost jungle-like atmosphere. In a small clearing
+  near a rushing stream, Cullan and Emer have found each other. The composition shows two
+  moments in sequence: First, they're embracing with relief, Cullan protective with his hand
+  on her shoulder, Emer holding her painting supplies close. But then, the main focus: Emer
+  sits on a moss-covered log, painting to calm herself while Cullan watches thoughtfully. As
+  she creates, her worry fading into concentration, faint rainbow sparkles begin to appear in
+  the air around her—drawn by her creative joy, not her searching. Cullan's expression shows
+  the moment of realization dawning: his piercing blue eyes are bright with understanding, his
+  gentle smile showing both love and recognition of what his sister truly needs. He's kneeling
+  beside her, one hand gesturing toward where the sparkles are drifting deeper into the forest,
+  the other touching her shoulder reassuringly. Emer looks up at him with uncertainty—should
+  she stay with him or follow the sparkles? The light here is different from their familiar
+  forest—greener, stranger, with odd plants that glow faintly. In the background, a wide stream
+  rushes past with massive waterfalls, and across it, barely visible, the glowing mushrooms
+  Cullan seeks. The composition emphasizes the fork in their paths: sparkles leading one
+  direction, stream crossing another. Small details include unusual insects with iridescent
+  wings, the contrast between Cullan's analytical observation and Emer's unconscious creativity,
+  and the visible love between siblings even as they realize they need different paths.
 
 # The text that appears on the page
 text: |
-  Deep in the unfamiliar forest, Cullan and Emer met a fox who promised to show them
-  the way. "I know exactly where you need to go," the fox said with a flourish, but
-  something in its smile made Cullan hold Emer's hand a little tighter.
+  When Cullan found Emer in the deep forest, they hugged tight with relief. But as Emer painted
+  to calm herself, Cullan noticed rainbow sparkles appearing around her joy. "The sparkles come
+  to you when you're happy," he said gently. "Go follow them—I believe in you." With his
+  encouragement warming her heart, Emer headed after the lights while Cullan turned back to his stream.
