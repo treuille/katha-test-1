@@ -71,7 +71,7 @@ attributes:
 # Initially this list is empty when we create the character, but it
 # will get filled after we run the right /commands to get all the pages built.
 story:
-  - cu-em-05
+  - cu-em-01
   - cu-ha-02
   - cu-03
   - cu-04
