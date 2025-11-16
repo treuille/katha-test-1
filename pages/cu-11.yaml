@@ -1,0 +1,47 @@
+# Cullan's Page - Spread 11
+# Page ID must match the filename
+id: cu-11
+
+# Which spread in the story arc (1-12)
+spread: 11
+
+# Story beat for this page
+beat: "Resolution (external)"
+
+# Hook to draw readers forward
+hook: Return journey begins with hint of future possibility or unresolved element.
+
+# Payoff from previous pages
+payoff: The choice works and goal is achieved, validating the journey.
+
+# Brief description of the scene
+description: Cullan makes the journey back through the forest, the developed photograph in his hands showing the glowing mushrooms in perfect detail.
+
+# Visual description for the illustrator
+visual: |
+  Dawn is breaking over the Hidden Forest as Cullan makes his way back along familiar paths.
+  The journey that seemed so difficult in the other direction now feels easier, purposeful.
+  He walks with confident strides, his earlier exhaustion replaced by satisfied weariness.
+  In his hands, he carefully carries a developed photograph—we can see it clearly, showing
+  the glowing mushrooms in their full ethereal beauty, captured perfectly under moonlight. The
+  photograph itself seems to glow slightly, as if it carries some of the mushrooms' magic.
+  The forest morning is rendered in beautiful detail: mist rising from the streams, dewdrops
+  catching the first sunlight, birds beginning their morning songs. Cullan passes landmarks
+  from his journey—he walks by where the fox gave him bad advice (the fox sleeps nearby,
+  curled in a hollow), he sees the owl's tree (she gives him a knowing nod from her perch),
+  he crosses the stream using his discovered path of branches and roots with easy confidence
+  now. His camera bounces gently against his chest, and his expression shows deep satisfaction
+  mixed with growing excitement to share what he's accomplished. The composition follows him
+  through dappled morning light, with the path ahead growing brighter and more welcoming. In
+  his pocket, visible corner of Emer's photo and the painted stone he retrieved, both tokens
+  of what made success possible. Details include: morning light transforming everything to
+  gold and green, small creatures greeting him as he passes (the mice from before, watching
+  approvingly), waterfalls catching sunrise colors, and his footprints in the dewey moss
+  marking a confident path home. The mood is one of earned triumph and anticipation of
+  homecoming—the external goal achieved, but something deeper now pulling him forward.
+
+# Story text - MAXIMUM 2 SENTENCES
+text: |
+  As dawn broke, Cullan walked home through the forest, the photograph of the glowing
+  mushrooms safely in his hands—more beautiful than he'd even imagined. He couldn't wait
+  to show Emer what her painted stone had helped him achieve.

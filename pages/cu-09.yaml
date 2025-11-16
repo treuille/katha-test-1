@@ -1,0 +1,46 @@
+# Cullan's Page - Spread 9
+# Page ID must match the filename
+id: cu-09
+
+# Which spread in the story arc (1-12)
+spread: 9
+
+# Story beat for this page
+beat: "Deepening choice / inner shift"
+
+# Hook to draw readers forward
+hook: A previously overlooked detail suddenly connects to something from earlier.
+
+# Payoff from previous pages
+payoff: Something affirms that the effort matters and creates emotional reconnection.
+
+# Brief description of the scene
+description: Looking at a photo of Emer for comfort, Cullan suddenly remembers the painted stones she left in their clearing—stones that could bridge the final gap.
+
+# Visual description for the illustrator
+visual: |
+  Cullan sits up straighter against the tree, his tiredness momentarily forgotten in a flash
+  of realization. In his hands, he holds a small photograph—slightly crumpled from being in
+  his pocket—showing Emer dancing in their special clearing, her painted stones scattered
+  around her feet. The photograph catches the last bit of twilight, and Cullan's face is
+  illuminated by wonder and renewed hope. His blue eyes are bright again, focused, and a
+  gentle smile plays at his lips. In the corner of the scene, we can see a memory visualization:
+  a ghostly overlay showing the clearing from Spread 1, with Emer's colorful painted stones—
+  smooth river rocks she decorated with swirling patterns in bright colors. The connection is
+  clear on Cullan's face—those stones, flat and stable, could bridge the final gap where the
+  branch falls short. The composition shows the transition from despair to hope, with the
+  photograph serving as both an emotional anchor (reminding him why beauty matters, why effort
+  matters) and a practical solution. The forest around him seems to respond to this shift—the
+  fireflies glow a bit brighter, a gentle breeze stirs the leaves, and even the distant
+  mushrooms seem to pulse with encouragement. Details include: Cullan's hand unconsciously
+  moving to his camera again, the photograph showing not just Emer but the scattered painted
+  stones, the tree bark's texture where his back rests, and in the background, the path back
+  to their special clearing visible in the moonlight that's beginning to emerge. His expression
+  captures that precious moment when discouragement transforms into determination—not because
+  he has to succeed, but because he remembers what matters.
+
+# Story text - MAXIMUM 2 SENTENCES
+text: |
+  Cullan pulled out a photo of Emer for comfort and suddenly saw the painted stones she'd
+  left in their clearing—flat, stable, perfect for bridging that final gap. He stood up,
+  exhaustion forgotten, knowing exactly what to do.

@@ -1,0 +1,45 @@
+# Cullan's Page - Spread 7
+# Page ID must match the filename
+id: cu-07
+
+# Which spread in the story arc (1-12)
+spread: 7
+
+# Story beat for this page
+beat: "Rising stakes: almost works"
+
+# Hook to draw readers forward
+hook: Success is close but incomplete, with a detail revealing what's still needed.
+
+# Payoff from previous pages
+payoff: New approach is tried based on the insight from previous spread.
+
+# Brief description of the scene
+description: Cullan carefully follows the natural path of branches and roots across the stream and almost reaches the far bank, but the final branch stops just short of the glowing mushrooms.
+
+# Visual description for the illustrator
+visual: |
+  Cullan is three-quarters of the way across the stream, balanced confidently on the network
+  of natural bridges he discovered. He's moving with careful grace, using the low willow
+  branches and exposed root systems exactly as the small creatures showed him. The stream
+  rushes beneath him, but he's well above it, secure on his natural highway. His camera swings
+  from his neck as he moves, and his expression shows focused determination mixed with growing
+  excitement—he's so close! The glowing mushrooms are just ahead on the far bank, their
+  ethereal blue-green light pulsing invitingly. But here's the problem: the final willow
+  branch extends toward the bank, and Cullan is reaching for the next root system, but there's
+  a gap—perhaps two feet—between where the branch ends and where the mushrooms grow. He's
+  stretched out, one hand gripping the branch, the other reaching toward the bank, his face
+  showing the realization that he's just short of his goal. The light is beginning to fade
+  toward evening, giving everything a golden-blue quality that makes the glowing mushrooms
+  even more striking. In the water below, fish jump, adding a sense of time passing and
+  urgency. Small birds watch from nearby branches, as if curious whether this tall human will
+  solve the puzzle. The composition emphasizes the tantalizingly close goal and the small but
+  significant gap that remains. Details include the texture of the willow bark under Cullan's
+  hands, the mist from the stream creating tiny rainbows, and the careful placement of his
+  feet on the root system below.
+
+# Story text - MAXIMUM 2 SENTENCES
+text: |
+  Following the natural bridges, Cullan made it most of the way across—but the last branch
+  stopped just short of the far bank. He stretched toward the glowing mushrooms, his
+  fingertips two feet from success.
