@@ -53,26 +53,127 @@ world
 
 **Note**: This step should be done AFTER binding characters together, so that shared pages already exist and won't be duplicated.
 
+**Important Constraints**:
+- Pages are numbered 1-12 only (corresponding to the 12 spreads in the story template)
+- Never create pages numbered less than 1 or more than 12
+- Skip all joint/shared pages with other characters
+
 1. Ask the user which character they want to create pages for
+
 2. Load the character file from `characters/` to see which pages already exist in their `story:` list
-3. Determine which pages need to be created:
-   - The story follows `templates/story-template.yaml` which has 12 spreads covering pages 5-28
-   - Check which pages are already listed in the character's `story:` field
-   - **Skip pages that already exist** - these will be shared pages created during the binding step
-   - Create missing pages with sequential numbering to fill gaps
-4. For each page that needs to be created:
-   - Use `templates/page-example.yaml` as the template
-   - Determine which spread the page belongs to based on `templates/story-template.yaml`
-   - Copy the `beat`, `hook`, and `payoff` from the corresponding spread in the story template
-   - Create a simple, bland `description` (1-2 sentences) for what happens on this page
-   - Create a `visual` description based on the world defined in `world.yaml`
-     - **Visual can be very long and detailed** to convey the scene richly
-   - Create a `text` field with the actual page text
-     - **Text must be 2 sentences maximum** - keep it super short and concise
-   - Keep descriptions generic enough to be customized later
-   - Save the page file in `pages/` with the naming convention `cc-pp.yaml` (e.g., `ma-05.yaml`, `cu-07.yaml`)
-5. Update the character's `story:` list to include all the newly created pages in sequential order
-6. **Do not create duplicate pages** - if a shared page already exists from the binding step, reference it instead of creating a new one
+
+3. **Read all joint pages with other characters**:
+   - Identify which pages in the character's `story:` list are shared (filenames with multiple character codes)
+   - For each shared page, read the page file from `pages/`
+   - Note the page number, description, visual, and text for each shared page
+   - These are fixed anchor points that the story must connect
+
+4. **Plan the story arc**:
+   - Think about how to weave a coherent story that connects all the joint pages together
+   - Consider the narrative flow: how does the character get from one joint page to the next?
+   - The solo pages you create must bridge these joint pages into a single flowing narrative
+
+5. **Create pages 1-12**:
+   - Go through pages 1-12 sequentially
+   - **Skip any page numbers that are joint pages** (already created during binding)
+   - For each page that needs to be created:
+     - Use `templates/page-example.yaml` as the template
+     - Determine which spread (1-12) the page belongs to based on `templates/story-template.yaml`
+     - Copy the `beat`, `hook`, and `payoff` from the corresponding spread in the story template
+     - Create a simple, bland `description` (1-2 sentences) for what happens on this page
+     - Create a `visual` description based on the world defined in `world.yaml`
+       - **Visual can be very long and detailed** to convey the scene richly
+     - Create a `text` field with the actual page text
+       - **Text must be 2 sentences maximum** - keep it super short and concise
+     - Make sure the page flows naturally with the joint pages and overall story arc
+     - Keep descriptions generic enough to be customized later
+     - Save the page file in `pages/` with the naming convention `cc-pp.yaml` (e.g., `ma-01.yaml`, `cu-07.yaml`)
+
+6. Update the character's `story:` list to include all newly created pages in sequential order (1-12), with joint pages in their correct positions
+
+### Showing and Critiquing a Character's Story
+
+This operation displays the complete story for a character, followed by a critique with improvement suggestions.
+
+**Part 1: Display the Story**
+
+1. Ask the user which character's story they want to see
+2. Load the character file from `characters/` to get their page list
+3. For each page in the character's `story:` list (in order):
+   - Read the page file from `pages/`
+   - Output in this format:
+     ```
+     ## Page [number]
+
+     **Visual:**
+     [visual content]
+
+     **Description:**
+     [description content]
+     ```
+4. Display all pages sequentially from first to last
+5. This is a simple display operation - do not interpret, analyze, or modify anything
+
+**Part 2: Critique the Story**
+
+After displaying all pages, automatically provide a critique:
+
+1. **Check world consistency**:
+   - Load `world.yaml`
+   - Verify the story aligns with the world's settings, visual style, rules, and themes
+   - Note any inconsistencies or missed opportunities to use world elements
+
+2. **Check story structure alignment**:
+   - Load `templates/story-template.yaml`
+   - For each page, verify it matches the corresponding spread's `beat`, `hook`, and `payoff`
+   - Identify any pages where the story structure isn't being followed properly
+
+3. **For shared pages with other characters**:
+   - Identify which pages are shared (filename will have multiple character codes)
+   - For each shared page, load the OTHER character's story
+   - Read the pages immediately before and after the shared page in the other character's story
+   - Note these cross-character constraints when making suggestions
+   - Any suggested changes to shared pages must make sense in both characters' narrative arcs
+
+4. **Generate three improvement suggestions**:
+   - Each suggestion should specify:
+     - Which page(s) to modify
+     - What to change (description, visual, text, or beat alignment)
+     - Why this improves the story
+     - If it's a shared page, confirm the change works with the other character's before/after pages
+   - Prioritize suggestions that:
+     - Strengthen world consistency
+     - Better align with story structure beats
+     - Improve narrative flow and character development
+
+5. **Present the critique** at the bottom of the output in this format:
+   ```
+   ---
+
+   ## Story Critique for [Character Name]
+
+   ### World Consistency
+   [Analysis of how well the story aligns with world.yaml]
+
+   ### Story Structure
+   [Analysis of how well pages match story template beats]
+
+   ### Shared Page Constraints
+   [List any shared pages and note the before/after context from other characters]
+
+   ### Three Suggestions for Improvement
+
+   1. **[Page X]: [Brief title]**
+      - What to change: [specific change]
+      - Why: [rationale]
+      - Constraints: [any shared page considerations]
+
+   2. **[Page Y]: [Brief title]**
+      ...
+
+   3. **[Page Z]: [Brief title]**
+      ...
+   ```
 
 ## Architecture
 
