@@ -1,0 +1,27 @@
+# Shared Page: Emer and Hansel - Spread 5
+# Attempt #3 (bigger world / stakes up)
+
+id: em-ha-05
+spread: 5
+beat: "Attempt #3 (bigger world / stakes up)"
+hook: Questionable character offers confident solution, creating doubt about whether to trust them.
+payoff: The suggested solution fails spectacularly and obviously wrong.
+
+description: A mischievous squirrel offers to show them a "shortcut" through the trees, but it leads to a wobbly branch that bounces them around comically before they retreat.
+
+visual: |
+  High in the canopy of The Hidden Forest, a cheeky-looking squirrel with a
+  too-confident grin points energetically down a branch. Emer and Hansel are
+  partway along the indicated branch, which is clearly too thin and bouncy.
+  The branch is bending dramatically under their weight, sending them bouncing
+  up and down. Hansel is laughing delightedly at the bouncing, his arms spread
+  wide, while Emer holds him tight with one arm and grips the branch with the
+  other, her expression caught between anxiety and the urge to laugh. Below
+  them is a dizzying drop to the forest floor, with the glowing stream visible
+  far in the wrong direction. The squirrel looks overly pleased with itself.
+
+text: |
+  "Follow me! I know a super-fast way!" chattered a bushy-tailed squirrel.
+  But his "shortcut" led to a thin, bouncy branch that sent them wobbling and
+  bouncing wildly. Hansel giggled with delight, but Emer held him tight. "This
+  isn't the right way!" she called out as they carefully backed up to safety.

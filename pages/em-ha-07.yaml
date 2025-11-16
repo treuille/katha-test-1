@@ -1,0 +1,27 @@
+# Shared Page: Emer and Hansel - Spread 7
+# Rising stakes: almost works
+
+id: em-ha-07
+spread: 7
+beat: "Rising stakes: almost works"
+hook: Success is close but incomplete, with a detail revealing what's still needed.
+payoff: What's missing is revealed to be distant or difficult to reach.
+
+description: Following the mossy branches works beautifully, and they can see a magnificent waterfall ahead - the stream's source! But there's a gap in the branches right before they can reach it.
+
+visual: |
+  A breathtaking vista opens before them. Emer and Hansel stand on a mossy
+  branch at the edge of a gap, looking toward a stunning waterfall cascading
+  down from high above. The waterfall glows with the same magical light as the
+  stream, creating rainbows in its mist. It's so close - maybe twenty feet away -
+  but there's an empty space between their branch and the landing near the falls.
+  Below, the stream pools in a beautiful clearing with luminous flowers. Emer
+  holds Hansel securely, her face showing a mix of awe at the beauty and
+  frustration at being so close yet unable to reach their destination. Hansel
+  points at the waterfall, his expression full of wonder.
+
+text: |
+  The mossy path led them higher and higher until - there! A magnificent
+  waterfall poured down from the rocks above, filling the air with rainbows
+  and music. But between them and the waterfall was a gap too wide to jump,
+  especially with Hansel. They were so close! What could they do now?
