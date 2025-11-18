@@ -42,6 +42,8 @@ Each image includes:
 1. **World Visual Style** - Consistent aesthetic from `world.yaml`
 2. **Scene Illustration** - Visual description from the page YAML file
 
+**Important**: Each generated image should be a single frame showing one moment in time. The visual descriptions should NOT include panels, subframes, or multiple scenes. Create one cohesive illustration per page.
+
 ## Setup
 
 1. Copy `.env.example` to `.env`
