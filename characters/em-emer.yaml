@@ -65,20 +65,18 @@ attributes:
 
   # Signature habits, inside jokes, special belongings
   memorable_details:
-    - Curly blonde hair
     - Loves to eat pancakes in the morning
     - Really into unicorns and alicorns
     - Fascinated by K-pop demon hunters
     - Always ready to dance and play
 
-  description: |
-    Emer is a sweet, playful 5-year-old girl who radiates joy and energy.
-    She loves creativity through painting, drawing, and dancing, and is
-    happiest when playing with her brother or other kids. With her curly
-    blonde hair and infectious enthusiasm, she brings fun and laughter
-    wherever she goes. Her imagination is filled with unicorns, alicorns,
-    and K-pop demon hunters, and she approaches each day with wonder and
-    excitement.
+  # This will be sent to the prompting system.
+  visual_description:
+    - Five years old
+    - Exuberant
+    - Loves to dance
+    - Wild, curly, messy blonde hair
+    - Very expressive face
 
 # Storybook Pages (ordered list)
 # Initially this list is empty when we create the character, but it

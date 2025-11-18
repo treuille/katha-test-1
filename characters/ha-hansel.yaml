@@ -62,22 +62,14 @@ attributes:
 
   # Signature habits, inside jokes, special belongings
   memorable_details:
-    - Looks just like his dad
-    - Very handsome
     - His mum watches him and comments on his resemblance to his father
     - Always smiling
 
-  description: |
-    Hansel is a complete sweetie pie - a one-year-old boy full of joy and
-    energy. He loves to explore the world through movement and play, dancing
-    around and playing with geometric objects. He's very physical and tactile,
-    enjoying toys and exploring things with his hands and mouth as toddlers do.
-
-    With his constant smile and easy-going nature, Hansel brightens every room
-    he enters. He loves being around friends and just wants to play and be
-    loved. His mum often remarks on how handsome he is and how much he looks
-    just like his dad. At just one year old, Hansel is discovering the world
-    with wonder and joy.
+  # This will be sent to the prompting system.
+  visual_description:
+    - One year old
+    - Handsome baby
+    - Looks just like his dad
 
 # Storybook Pages (ordered list)
 # Initially this list is empty when we create the character, but it
