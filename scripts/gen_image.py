@@ -8,7 +8,7 @@ Usage:
 Model Backends:
     openai      - OpenAI DALL-E 3 (1792x1024, ~2:1 aspect ratio)
     replicate   - Replicate IPAdapter Style SDXL (1536x768, 2:1 aspect ratio)
-                  Uses images/cu-01-openai.jpg as style reference
+                  Uses out-images/cu-01-openai.jpg as style reference
     ideogram    - Ideogram v3 (3:1 aspect ratio)
     prompt      - Display prompt without generating image (testing)
 
@@ -199,8 +199,8 @@ def generate_with_openai(prompt: str, page_id: str) -> str:
 
         image_data = requests.get(image_url).content
 
-        # Save to images directory
-        output_dir = Path("images")
+        # Save to out-images directory
+        output_dir = Path("out-images")
         output_dir.mkdir(parents=True, exist_ok=True)
 
         output_path = output_dir / f"{page_id}-openai.jpg"
@@ -228,7 +228,7 @@ def generate_with_replicate(prompt: str, page_id: str) -> str:
 
     try:
         # Use hardcoded style reference image
-        style_image_path = Path("images/cu-01-openai.jpg")
+        style_image_path = Path("out-images/cu-01-openai.jpg")
         print(f"Using style reference: {style_image_path}")
 
         # Open and use the style image (will fail if doesn't exist)
@@ -253,8 +253,8 @@ def generate_with_replicate(prompt: str, page_id: str) -> str:
         image_url = output[0]
         image_data = requests.get(image_url).content
 
-        # Save to images directory
-        output_dir = Path("images")
+        # Save to out-images directory
+        output_dir = Path("out-images")
         output_dir.mkdir(parents=True, exist_ok=True)
 
         output_path = output_dir / f"{page_id}-replicate.jpg"
@@ -309,8 +309,8 @@ def generate_with_ideogram(prompt: str, page_id: str) -> str:
         # Download the image
         image_data = requests.get(image_url).content
 
-        # Save to images directory
-        output_dir = Path("images")
+        # Save to out-images directory
+        output_dir = Path("out-images")
         output_dir.mkdir(parents=True, exist_ok=True)
 
         output_path = output_dir / f"{page_id}-ideogram.jpg"

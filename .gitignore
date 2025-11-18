@@ -8,7 +8,10 @@ scripts/__pycache__
 .env
 
 # Generated images
-images/*.jpg
+out-images/*.jpg
+
+# Reference images
+ref-images/*.jpg
 
 # uv/Python virtual environment
 .venv/

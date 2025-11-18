@@ -76,7 +76,7 @@ The script exits with code 0 on success, 1 on failure, with color-coded error me
 
 ## Image Generation
 
-Generate AI illustrations for story pages using the `gen_image.py` script. See [`images/README.md`](images/README.md) for complete documentation on setup, usage, and available backends.
+Generate AI illustrations for story pages using the `gen_image.py` script. See [`docs/image-generation.md`](docs/image-generation.md) for complete documentation on setup, usage, and available backends.
 
 ## Structure
 
@@ -89,6 +89,8 @@ Generate AI illustrations for story pages using the `gen_image.py` script. See [
   - `pull-from-base.sh` - Safely pulls latest changes from katha-base to forked repositories
   - `show_story.py` - Display a character's complete story with overlap analysis (usage: `python3 scripts/show_story.py <character-code>`)
   - `validate_structure.py` - Validate repository structure and formatting (usage: `python3 scripts/validate_structure.py`)
+- `docs/` - Additional documentation
+  - `image-generation.md` - Complete guide to generating AI illustrations for storybook pages
 - `.claude/` - Project documentation
 
 ## File Naming
