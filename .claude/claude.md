@@ -298,6 +298,12 @@ Example:
 
 Both `characters/ma-maya.yaml` and `characters/le-leo.yaml` list this page at position 7 in their story lists.
 
+## Image Generation
+
+For generating AI illustrations for story pages, see the complete documentation in `docs/image-generation.md`. The script `scripts/gen_image.py` can generate images using various backends (OpenAI, Replicate, Ideogram).
+
+Generated images are stored in the `out-images/` directory and are not committed to the repository.
+
 ## File Structure
 
 ```
@@ -319,6 +325,14 @@ katha-base/
 │   ├── character-example.yaml
 │   ├── story-template.yaml
 │   └── page-example.yaml
+├── docs/
+│   └── image-generation.md    # Image generation documentation
+├── scripts/
+│   ├── gen_image.py           # Generate AI illustrations
+│   ├── show_story.py          # Display character stories
+│   ├── validate_structure.py  # Validate repository structure
+│   └── pull-from-base.sh      # Pull updates from base repo
+├── out-images/                # Generated images (git-ignored)
 └── .claude/
     └── claude.md              # This file
 ```

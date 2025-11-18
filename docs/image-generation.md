@@ -1,10 +1,8 @@
-# Generated Images
+# Image Generation
 
-This directory contains AI-generated illustrations for storybook pages.
+Generate AI illustrations for storybook pages using the `gen_image.py` script.
 
-## How Images Are Generated
-
-Images are created using the `gen_image.py` script:
+## Usage
 
 ```bash
 uv run scripts/gen_image.py <model-backend> <page-path>
@@ -32,7 +30,7 @@ Examples:
 
 - **openai** - OpenAI DALL-E 3
 - **replicate** - Replicate IPAdapter Style SDXL
-  - **Requires** `images/cu-01-openai.jpg` as a style reference
+  - **Requires** `out-images/cu-01-openai.jpg` as a style reference
   - Applies the visual style from that reference image to all generations
   - Generate the reference image with OpenAI first before using Replicate
 - **ideogram** - Ideogram v3
@@ -44,8 +42,30 @@ Each image includes:
 1. **World Visual Style** - Consistent aesthetic from `world.yaml`
 2. **Scene Illustration** - Visual description from the page YAML file
 
-## Notes
+## Setup
 
-- This directory is git-ignored (except this README)
-- Images are generated on-demand and not committed to the repository
-- Each user generates their own images using their API keys
+1. Copy `.env.example` to `.env`
+2. Add your API keys:
+   - `OPENAI_API_KEY` - For OpenAI backend
+   - `REPLICATE_API_TOKEN` - For Replicate backend
+   - `IDEOGRAM_API_KEY` and `IDEOGRAM_API_URL` - For Ideogram backend
+
+## Examples
+
+```bash
+# Generate with OpenAI DALL-E 3
+uv run scripts/gen_image.py openai pages/cu-01.yaml
+
+# Generate with Replicate (requires reference image)
+uv run scripts/gen_image.py replicate pages/em-05.yaml
+
+# Generate with Ideogram
+uv run scripts/gen_image.py ideogram pages/ha-12.yaml
+
+# Test mode - show prompt without generating
+uv run scripts/gen_image.py prompt pages/cu-ha-02.yaml
+```
+
+## Output Location
+
+All generated images are saved to the `out-images/` directory and are git-ignored (not committed to the repository). Each user generates their own images using their API keys.
