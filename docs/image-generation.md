@@ -45,9 +45,9 @@ Examples:
 
 Each image includes:
 1. **Reference Images** - Visual style from `ref-images/` directory
-   - World reference images (world-*.jpg) for overall aesthetic
+   - Style reference images (style-*.jpg) for overall aesthetic
    - Character reference images (cu-*.jpg, em-*.jpg, etc.) for character appearance
-2. **World Visual Style** - Style description from `world.yaml`
+2. **Visual Style** - Style description from `world.yaml`
 3. **Character Visual Descriptions** - Physical descriptions from character YAML files
 4. **Scene Illustration** - Visual description from the page YAML file
 5. **Story Text** - Embedded as readable typography (avoiding the center fold line)
@@ -58,7 +58,7 @@ Each image includes:
 
 The script automatically includes reference images based on the page being generated:
 
-- **World images**: All files matching `ref-images/world-*.jpg` are always included
+- **Style images**: All files matching `ref-images/style-*.jpg` are always included
 - **Character images**: Files matching `ref-images/{character-code}-*.jpg` are included when that character appears
   - Example: For page `cu-ha-07.yaml`, includes `cu-*.jpg` and `ha-*.jpg`
 
