@@ -17,7 +17,7 @@ Create interconnected children's stories where each character has their own book
 ## Architecture
 
 ```
-world.yaml (master: world lore + character links)
+book.yaml (master: world lore + character links)
     ↓
 characters/cc-name.yaml (each character = one storybook)
     ↓
@@ -80,7 +80,7 @@ Generate AI illustrations for story pages using the `gen_image.py` script. See [
 
 ## Structure
 
-- `world.yaml` - Master document: world lore, settings, character index, interaction map (copy from `templates/world-example.yaml`)
+- `book.yaml` - Master document: world lore, settings, character index, interaction map (copy from `templates/book-example.yaml`)
 - `characters/` - Character files (each is a storybook with attributes + page list)
 - `pages/` - Individual story pages (YAML with markdown content + image prompts)
 - `templates/` - Example files that serve as both templates and schemas
@@ -104,7 +104,7 @@ All lowercase with dashes:
 - Shared pages: `cu-ma-07.yaml`, `le-ma-07.yaml` (character codes alphabetically + spread number)
 
 Templates serve as both examples and schemas:
-- **World**: `templates/world-example.yaml` - World structure
+- **Book**: `templates/book-example.yaml` - Book structure
 - **Story Arc**: `templates/story-template.yaml` - **SOURCE OF TRUTH** for story structure (12 spreads with beats, hooks, payoffs)
 - **Character**: `templates/character-example.yaml` - Character structure
 - **Page**: `templates/page-example.yaml` - Individual page structure

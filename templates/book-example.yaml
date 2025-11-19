@@ -1,0 +1,60 @@
+# Book Example
+#
+# This file serves as both an example and a schema for creating your book.
+# When creating a new book, ask the user questions based on each field below,
+# then fill in their answers in book.yaml
+
+# What's this book called?
+title: The Adventures in Fantasia
+
+# What's the world/setting called?
+name: Fantasia
+
+# What's the visual style?
+# How does this world look? What's the aesthetic, color palette, atmosphere?
+# This is used for prompting the visual system.
+visual_style:
+  - Fine pen and ink style, with dream-like watercolor overlays.
+  - The world is a forest, but very wet, with waterfalls and streams everywhere.
+  - There are lots of magical creatures and details everywhere, mushrooms, small mammals, and strange creatures in the trees.
+  - Everything has a gentle glow, as if lit by unseen magical source
+
+# Front cover visual description
+# This describes what you see on the front cover of the book.
+# IMPORTANT: Describe a SINGLE INSTANT IN TIME - not a sequence of actions
+# - Describe WHAT is happening at this exact moment (the action, poses, expressions)
+# - Describe WHERE things are (positions, spatial relationships, background details)
+# - Include specific visual details about the world, objects, and environment
+# - Do NOT include stylistic suggestions (those come from visual_style above)
+# - Do NOT describe multiple moments or a sequence of events
+# - Do NOT include the book title in this description (that will be added separately)
+front_cover_visual: |
+  A magical forest clearing at dusk. In the center, a young child stands on a moss-covered
+  stone, reaching up toward a glowing butterfly that hovers just above their fingertips. The
+  child's face is tilted upward, eyes wide with wonder, mouth slightly open in awe. Behind
+  them, a massive waterfall cascades down between ancient trees, its mist catching the last
+  rays of golden sunlight. The forest floor is carpeted with luminescent mushrooms that pulse
+  with soft blue and green light. Small magical creatures peek out from behind tree trunks -
+  a rabbit with antlers, a tiny dragon perched on a branch, a fox with shimmering fur. Ferns
+  and wildflowers frame the bottom of the scene. The waterfall's mist creates a soft, ethereal
+  atmosphere throughout.
+
+# Back cover visual description
+# This describes what you see on the back cover of the book.
+# IMPORTANT: Describe a SINGLE INSTANT IN TIME - not a sequence of actions
+# - Describe WHAT is happening at this exact moment (the action, poses, expressions)
+# - Describe WHERE things are (positions, spatial relationships, background details)
+# - Include specific visual details about the world, objects, and environment
+# - Do NOT include stylistic suggestions (those come from visual_style above)
+# - Do NOT describe multiple moments or a sequence of events
+# - Do NOT include any back cover text in this description (that will be added separately)
+back_cover_visual: |
+  A winding forest path disappearing into misty depths. The path is made of smooth river
+  stones, partially covered with moss and small flowers. On either side, tall trees arch
+  overhead, their branches intertwining to form a natural tunnel. Magical lights float along
+  the path like lanterns, casting warm golden glows. In the mid-ground, a small wooden bridge
+  crosses over a babbling stream where small fish with iridescent scales can be seen jumping.
+  The background fades into soft purple and blue mist, suggesting mystery and adventure ahead.
+  Mushrooms of various sizes line the path edges, some as tall as tree stumps, glowing faintly.
+  Fireflies dance in the air between the trees. The overall feeling is one of invitation and
+  peaceful mystery.

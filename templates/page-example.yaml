@@ -32,7 +32,7 @@ description: Cullan tries to climb up the ladder but finds it too slippery.
 # - Describe WHAT is happening at this exact moment (the action, poses, expressions)
 # - Describe WHERE things are (positions, spatial relationships, background details)
 # - Include specific visual details about the world, objects, and environment
-# - Do NOT include stylistic suggestions (those come from world.yaml)
+# - Do NOT include stylistic suggestions (those come from book.yaml)
 # - Do NOT describe multiple moments or a sequence of events
 visual: |
   Cullan is mid-slip, falling backwards off a wooden ladder. His body is angled

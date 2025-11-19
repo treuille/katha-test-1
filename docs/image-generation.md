@@ -47,7 +47,7 @@ Each image includes:
 1. **Reference Images** - Visual style from `ref-images/` directory
    - Style reference images (style-*.jpg) for overall aesthetic
    - Character reference images (cu-*.jpg, em-*.jpg, etc.) for character appearance
-2. **Visual Style** - Style description from `world.yaml`
+2. **Visual Style** - Style description from `book.yaml`
 3. **Character Visual Descriptions** - Physical descriptions from character YAML files
 4. **Scene Illustration** - Visual description from the page YAML file
 5. **Story Text** - Embedded as readable typography (avoiding the center fold line)

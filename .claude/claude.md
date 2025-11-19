@@ -40,12 +40,12 @@ world
    Replace `<character-code>` with the actual two-letter character code.
 6. **Do not leak any example data** from the template into the new character
 
-### Creating the World
+### Creating the Book
 
-1. Use `templates/world-example.yaml` as the template
-2. Ask the user questions for each field in the template to define their world
-3. Fill in all the answers in `world.yaml` at the root level
-4. **Do not leak any example data** from the template into the new world
+1. Use `templates/book-example.yaml` as the template
+2. Ask the user questions for each field in the template to define their book
+3. Fill in all the answers in `book.yaml` at the root level
+4. **Do not leak any example data** from the template into the new book
 
 ### Binding Two Characters Together
 
@@ -72,7 +72,7 @@ world
      - Describe WHAT is happening at this exact moment (action, poses, expressions)
      - Describe WHERE things are (positions, spatial relationships, background details)
      - Include specific visual details about the world, objects, and environment
-     - Do NOT include stylistic suggestions (those come from world.yaml)
+     - Do NOT include stylistic suggestions (those come from book.yaml)
      - Do NOT describe multiple moments, sequences, or panels
 7. Insert the page reference into both character files' `story:` lists at the correct position (in order)
    - **Format**: Use filename only with `.yaml` extension (e.g., `- cu-ma-07.yaml`)
@@ -112,13 +112,13 @@ world
      - Determine which spread (1-12) the page belongs to based on `templates/story-template.yaml`
      - Copy the `beat`, `hook`, and `payoff` from the corresponding spread in the story template
      - Create a simple, bland `description` (1-2 sentences) for what happens on this page
-     - Create a `visual` description based on the world defined in `world.yaml`
+     - Create a `visual` description based on the world defined in `book.yaml`
        - **Visual can be very long and detailed** to convey the scene richly
        - **IMPORTANT**: Describe a SINGLE INSTANT IN TIME - not a sequence of actions
        - Describe WHAT is happening at this exact moment (action, poses, expressions)
        - Describe WHERE things are (positions, spatial relationships, background details)
        - Include specific visual details about the world, objects, and environment
-       - Do NOT include stylistic suggestions (those come from world.yaml)
+       - Do NOT include stylistic suggestions (those come from book.yaml)
        - Do NOT describe multiple moments, sequences, or panels
      - Create a `text` field with the actual page text
        - **Text must be 2 sentences maximum** - keep it super short and concise
@@ -181,9 +181,9 @@ This operation displays the complete story for a character, followed by a critiq
 
 After the script displays the story, automatically provide a critique:
 
-1. **Check world consistency**:
-   - Load `world.yaml`
-   - Verify the story aligns with the world's settings, visual style, rules, and themes
+1. **Check book consistency**:
+   - Load `book.yaml`
+   - Verify the story aligns with the book's settings, visual style, rules, and themes
    - Note any inconsistencies or missed opportunities to use world elements
 
 2. **Check story structure alignment**:
@@ -213,8 +213,8 @@ After the script displays the story, automatically provide a critique:
 
    ## Story Critique for [Character Name]
 
-   ### World Consistency
-   [Analysis of how well the story aligns with world.yaml]
+   ### Book Consistency
+   [Analysis of how well the story aligns with book.yaml]
 
    ### Story Structure
    [Analysis of how well pages match story template beats]
@@ -239,7 +239,7 @@ After the script displays the story, automatically provide a critique:
 ## Architecture
 
 ```
-world.yaml (master document)
+book.yaml (master document)
     ↓ links to
 characters/cc-name.yaml (character attributes + page list)
     ↓ references
@@ -248,7 +248,7 @@ pages/cc-pp.yaml (individual story pages)
 
 ### Core Concept
 
-- **World Document** (`world.yaml`): Master YAML file defining world lore, settings, challenges, and character interactions
+- **Book Document** (`book.yaml`): Master YAML file defining world lore, settings, challenges, and character interactions
 - **Character Files** (`characters/`): Each character is their own storybook with attributes and an ordered page list
 - **Page Files** (`pages/`): Individual scenes that can belong to one or multiple characters
 - **Shared Pages**: When characters interact, they share a page at the same spread number in both books
@@ -257,7 +257,7 @@ pages/cc-pp.yaml (individual story pages)
 
 All filenames use lowercase with dashes:
 
-- **World**: `world.yaml`
+- **Book**: `book.yaml`
 - **Characters**: `characters/cc-name.yaml` (e.g., `ma-maya.yaml`, `le-leo.yaml`, `cu-cullan.yaml`)
   - `cc` = two-letter character code (unique identifier)
   - `name` = character name in lowercase
@@ -273,9 +273,9 @@ All filenames use lowercase with dashes:
 
 ## How It Works
 
-### world.yaml - The Master Document
+### book.yaml - The Master Document
 
-`world.yaml` is the central hub:
+`book.yaml` is the central hub:
 - Defines world lore, settings, rules, themes
 - Links to all character files
 - Maps character interactions (who appears together, at which spread numbers)
@@ -356,7 +356,7 @@ katha-base/
 
 When Claude needs to understand the narrative:
 
-1. **Start at world.yaml**: See the big picture, character index, and interaction map
+1. **Start at book.yaml**: See the big picture, character index, and interaction map
 2. **Load character files**: Understand each character's arc and page sequence
 3. **Read pages in order**: Follow the narrative by reading pages in sequence for each character
 4. **Understand relationships**: See how shared pages connect different character narratives
@@ -364,7 +364,7 @@ When Claude needs to understand the narrative:
 ### Example: Reading Maya's Story
 
 ```
-1. Read world.yaml → see Maya's file is ma-maya.yaml, code "ma"
+1. Read book.yaml → see Maya's file is ma-maya.yaml, code "ma"
 2. Read characters/ma-maya.yaml → get her attributes and page list
 3. Read pages in order:
    - pages/ma-01.yaml (page 1, solo)
@@ -378,8 +378,8 @@ When Claude needs to understand the narrative:
 
 - Pages know which characters appear via `character_codes` field
 - Character files list their full page sequence
-- world.yaml maps all interactions
-- No circular dependencies: world → characters → pages (one direction)
+- book.yaml maps all interactions
+- No circular dependencies: book → characters → pages (one direction)
 
 ## Key Features
 
@@ -394,7 +394,7 @@ When Claude needs to understand the narrative:
 
 Templates serve as both examples and schemas, showing the structure with real example data:
 
-- **World Template**: `templates/world-example.yaml` - Copy to `world.yaml` to create your world
+- **Book Template**: `templates/book-example.yaml` - Copy to `book.yaml` to create your book
 - **Character Template**: `templates/character-example.yaml` - Complete example showing all fields with Cullan's data
 - **Story Arc Template**: `templates/story-template.yaml` - **SOURCE OF TRUTH** for story structure: 12 spreads with beats, hooks, and payoffs
 - **Page Template**: `templates/page-example.yaml` - Template for creating individual story pages
@@ -410,7 +410,7 @@ All stories follow the structure defined in `templates/story-template.yaml`:
 
 ## Quick Reference
 
-- **Master document**: `world.yaml` (at root level, copy from `templates/world-example.yaml`)
+- **Master document**: `book.yaml` (at root level, copy from `templates/book-example.yaml`)
 - **Story structure**: `templates/story-template.yaml` (SOURCE OF TRUTH - 12 spreads with beats, hooks, payoffs)
 - **Character files**: `characters/cc-name.yaml` (see `templates/character-example.yaml` for structure)
 - **Page files**: `pages/cc-pp.yaml` or `pages/cc-cc-pp.yaml` (see `templates/page-example.yaml` for structure)
