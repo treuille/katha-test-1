@@ -158,25 +158,25 @@ def get_reference_images(page_id: str) -> list:
 
 
 def load_visual_style() -> str:
-    """Load the visual style from world.yaml."""
-    world_path = Path("world.yaml")
+    """Load the visual style from book.yaml."""
+    book_path = Path("book.yaml")
 
-    if not world_path.exists():
-        print("Warning: world.yaml not found, skipping visual style")
+    if not book_path.exists():
+        print("Warning: book.yaml not found, skipping visual style")
         return ""
 
     try:
-        with open(world_path, "r") as f:
-            world_data = yaml.safe_load(f)
+        with open(book_path, "r") as f:
+            book_data = yaml.safe_load(f)
     except Exception as e:
-        print(f"Warning: Failed to load world.yaml: {e}")
+        print(f"Warning: Failed to load book.yaml: {e}")
         return ""
 
-    visual_style = world_data.get("visual_style", [])
+    visual_style = book_data.get("visual_style", [])
     if visual_style:
         return "\n".join(f"- {item}" for item in visual_style)
     else:
-        print("Warning: No 'visual_style' found in world.yaml")
+        print("Warning: No 'visual_style' found in book.yaml")
     return ""
 
 
