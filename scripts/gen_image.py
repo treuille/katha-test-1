@@ -6,7 +6,9 @@ Usage:
     uv run scripts/gen_image.py <model-backend> <page-path>
 
 Model Backends:
-    openai      - OpenAI gpt-image-1 (1536x1024 landscape, 3:2 aspect ratio)
+    openai      - OpenAI gpt-image-1 (generates at 1536x1024, upscales to 3579x2406)
+                  Content centered at 3507x2334 with 36px bleed on all sides
+                  Photobook format with guide lines for 6x8.5" spread
                   Uses reference images from ref-images/ directory (up to 10 images)
                   Falls back to generation if no reference images found
     prompt      - Display prompt without generating image (testing)
@@ -15,7 +17,7 @@ Model Backends:
 
 Reference Images:
     The script automatically includes reference images based on the page ID:
-    - world-*.jpg: Always included for world style
+    - style-*.jpg: Always included for style
     - {char}-*.jpg: Included when character appears in the scene
       (e.g., cu-1.jpg for Cullan, em-1.jpg for Emer, ha-1.jpg for Hansel)
 
@@ -128,11 +130,11 @@ def get_reference_images(page_id: str) -> list:
 
     references = []
 
-    # Always include world reference images
-    world_images = sorted(ref_dir.glob("world-*.jpg"))
-    for img in world_images:
+    # Always include style reference images
+    style_images = sorted(ref_dir.glob("style-*.jpg"))
+    for img in style_images:
         references.append(
-            {"path": img, "description": "a reference image for the world"}
+            {"path": img, "description": "a style reference image"}
         )
 
     # Parse character IDs from page ID
@@ -155,12 +157,12 @@ def get_reference_images(page_id: str) -> list:
     return references
 
 
-def load_world_style() -> str:
+def load_visual_style() -> str:
     """Load the visual style from world.yaml."""
     world_path = Path("world.yaml")
 
     if not world_path.exists():
-        print("Warning: world.yaml not found, skipping world style")
+        print("Warning: world.yaml not found, skipping visual style")
         return ""
 
     try:
@@ -252,9 +254,9 @@ def load_page_data(page_path: str) -> dict:
 
 
 def build_full_prompt(
-    page_data: dict, world_style: str, references: list, character_descriptions: dict
+    page_data: dict, visual_style: str, references: list, character_descriptions: dict
 ) -> str:
-    """Build the complete prompt with world style and visual content."""
+    """Build the complete prompt with visual style and visual content."""
     visual = page_data.get("visual", "")
     text = page_data.get("text", "")
 
@@ -281,10 +283,10 @@ def build_full_prompt(
         for i, ref in enumerate(references, start=1):
             prompt_parts.append(f"Image {i} is {ref['description']}.")
 
-    # Add world visual style
-    if world_style:
-        prompt_parts.append("\n--- WORLD VISUAL STYLE ---")
-        prompt_parts.append(world_style)
+    # Add visual style
+    if visual_style:
+        prompt_parts.append("\n--- VISUAL STYLE ---")
+        prompt_parts.append(visual_style)
 
     # Add character visual descriptions
     if character_descriptions:
@@ -360,10 +362,8 @@ def generate_with_openai(prompt: str, page_id: str, references: list) -> str:
 
         # Handle both URL and base64 responses
         import base64
-
-        output_dir = Path("out-images")
-        output_dir.mkdir(parents=True, exist_ok=True)
-        output_path = output_dir / f"{page_id}-openai.jpg"
+        import io
+        from PIL import Image, ImageDraw
 
         # Check if response has URL or base64 data
         if hasattr(response.data[0], 'url') and response.data[0].url:
@@ -378,8 +378,60 @@ def generate_with_openai(prompt: str, page_id: str, references: list) -> str:
             print(f"Response: {response}")
             sys.exit(1)
 
-        with open(output_path, "wb") as f:
-            f.write(image_data)
+        # Load image from bytes
+        print("Processing image for photobook format...")
+        img = Image.open(io.BytesIO(image_data))
+
+        # Inner content dimensions (the actual generated image area)
+        CONTENT_WIDTH = 3507
+        CONTENT_HEIGHT = 2334
+
+        # Full output dimensions with bleed area
+        FULL_WIDTH = 3579
+        FULL_HEIGHT = 2406
+
+        # Upscale to content size using Lanczos resampling for quality
+        print(f"Upscaling from {img.size[0]}x{img.size[1]} to {CONTENT_WIDTH}x{CONTENT_HEIGHT}...")
+        img = img.resize((CONTENT_WIDTH, CONTENT_HEIGHT), Image.Resampling.LANCZOS)
+
+        # Convert to RGB if needed (for JPG format)
+        if img.mode != 'RGB':
+            img = img.convert('RGB')
+
+        # Create larger canvas with white background
+        print(f"Creating full canvas {FULL_WIDTH}x{FULL_HEIGHT}...")
+        canvas = Image.new('RGB', (FULL_WIDTH, FULL_HEIGHT), (255, 255, 255))
+
+        # Calculate centering offset (should be 36, 36)
+        offset_x = (FULL_WIDTH - CONTENT_WIDTH) // 2
+        offset_y = (FULL_HEIGHT - CONTENT_HEIGHT) // 2
+
+        # Paste the upscaled image centered on the canvas
+        canvas.paste(img, (offset_x, offset_y))
+
+        # Add guide lines on the full canvas
+        print("Adding photobook guide lines...")
+        draw = ImageDraw.Draw(canvas)
+
+        # Horizontal guide lines (spanning full width)
+        draw.line([(0, 36), (FULL_WIDTH, 36)], fill=(0, 0, 0), width=1)  # Top margin
+        draw.line([(0, 2370), (FULL_WIDTH, 2370)], fill=(0, 0, 0), width=1)  # Bottom margin
+
+        # Vertical guide lines (spanning full height)
+        draw.line([(36, 0), (36, FULL_HEIGHT)], fill=(0, 0, 0), width=1)  # Left margin
+        draw.line([(3543, 0), (3543, FULL_HEIGHT)], fill=(0, 0, 0), width=1)  # Right margin
+        draw.line([(1789, 0), (1789, FULL_HEIGHT)], fill=(0, 0, 0), width=1)  # Center gutter/spine
+
+        # Use canvas instead of img for saving
+        img = canvas
+
+        # Save to output directory
+        output_dir = Path("out-images")
+        output_dir.mkdir(parents=True, exist_ok=True)
+        output_path = output_dir / f"{page_id}-openai.jpg"
+
+        print(f"Saving photobook-ready image ({FULL_WIDTH}x{FULL_HEIGHT})...")
+        img.save(output_path, "JPEG", quality=95)
 
         return str(output_path)
 
@@ -541,9 +593,9 @@ def main():
     else:
         print(f"  No reference images found")
 
-    # Load world style and page data
-    print(f"Loading world style...")
-    world_style = load_world_style()
+    # Load visual style and page data
+    print(f"Loading visual style...")
+    visual_style = load_visual_style()
 
     # Load character descriptions
     print(f"Loading character descriptions for {page_id}...")
@@ -559,7 +611,7 @@ def main():
     page_data = load_page_data(page_path)
 
     # Build complete prompt
-    prompt = build_full_prompt(page_data, world_style, references, character_descriptions)
+    prompt = build_full_prompt(page_data, visual_style, references, character_descriptions)
 
     # Generate image with selected backend
     if backend == "openai":
