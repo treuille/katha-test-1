@@ -12,6 +12,7 @@ out-images/*.jpg
 
 # Reference images
 ref-images/*.jpg
+!ref-images/world-*.jpg
 
 # uv/Python virtual environment
 .venv/
