@@ -3,17 +3,21 @@
 Generate images for storybook pages using various AI models.
 
 Usage:
-    uv run scripts/gen_image.py <model-backend> <page-path>
+    uv run scripts/gen_image.py <model-backend> <page-path> [--add-guides] [--raw]
 
 Model Backends:
-    openai      - OpenAI gpt-image-1 (generates at 1536x1024, upscales to 3579x2406)
-                  Content centered at 3507x2334 with 36px bleed on all sides
-                  Photobook format with guide lines for 6x8.5" spread
+    openai      - OpenAI gpt-image-1 (generates at 1536x1024)
+                  Default: upscales to 3579x2406 with 36px bleed for photobook printing
                   Uses reference images from ref-images/ directory (up to 10 images)
                   Falls back to generation if no reference images found
     prompt      - Display prompt without generating image (testing)
 
     (Deprecated backends: replicate, ideogram)
+
+Options:
+    --add-guides    Add 5 black guide lines for photobook printing alignment
+                    (2 horizontal: y=36, y=2370; 3 vertical: x=36, x=1789, x=3543)
+    --raw           Output raw image without upscaling or bleed (1536x1024 direct from API)
 
 Reference Images:
     The script automatically includes reference images based on the page ID:
@@ -23,11 +27,14 @@ Reference Images:
 
 Examples:
     uv run scripts/gen_image.py openai pages/cu-01.yaml
+    uv run scripts/gen_image.py openai pages/cu-01.yaml --raw
+    uv run scripts/gen_image.py openai pages/cu-ha-02.yaml --add-guides
     uv run scripts/gen_image.py prompt pages/cu-ha-02.yaml
 """
 
 import os
 import sys
+import argparse
 import yaml
 from pathlib import Path
 from typing import Optional
@@ -73,22 +80,44 @@ def print_help():
     print("\nNote: Copy .env.example to .env and fill in your API keys")
 
 
-def validate_args(args):
-    """Validate command line arguments."""
-    if len(args) != 3:
-        print("Error: Invalid number of arguments\n")
-        print_help()
-        sys.exit(1)
+def parse_args():
+    """Parse command line arguments."""
+    parser = argparse.ArgumentParser(
+        description="Generate images for storybook pages using AI models",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+    uv run scripts/gen_image.py openai pages/cu-01.yaml
+    uv run scripts/gen_image.py openai pages/cu-ha-02.yaml --add-guides
+    uv run scripts/gen_image.py prompt pages/cu-ha-02.yaml
+        """
+    )
 
-    backend = args[1]
-    page_path = args[2]
+    parser.add_argument(
+        "backend",
+        choices=BACKENDS.keys(),
+        help="Model backend to use for generation"
+    )
 
-    if backend not in BACKENDS:
-        print(f"Error: Unknown model backend '{backend}'\n")
-        print_help()
-        sys.exit(1)
+    parser.add_argument(
+        "page_path",
+        type=str,
+        help="Path to the page YAML file"
+    )
 
-    return backend, page_path
+    parser.add_argument(
+        "--add-guides",
+        action="store_true",
+        help="Add 5 black guide lines for photobook printing alignment"
+    )
+
+    parser.add_argument(
+        "--raw",
+        action="store_true",
+        help="Output raw image without upscaling or bleed (1536x1024 direct from API)"
+    )
+
+    return parser.parse_args()
 
 
 def check_api_keys(backend: str):
@@ -308,7 +337,7 @@ def build_full_prompt(
     return "\n".join(prompt_parts)
 
 
-def generate_with_openai(prompt: str, page_id: str, references: list) -> str:
+def generate_with_openai(prompt: str, page_id: str, references: list, add_guides: bool = False, raw: bool = False) -> str:
     """Generate image using OpenAI gpt-image-1 with reference images."""
     try:
         from openai import OpenAI
@@ -379,59 +408,65 @@ def generate_with_openai(prompt: str, page_id: str, references: list) -> str:
             sys.exit(1)
 
         # Load image from bytes
-        print("Processing image for photobook format...")
         img = Image.open(io.BytesIO(image_data))
-
-        # Inner content dimensions (the actual generated image area)
-        CONTENT_WIDTH = 3507
-        CONTENT_HEIGHT = 2334
-
-        # Full output dimensions with bleed area
-        FULL_WIDTH = 3579
-        FULL_HEIGHT = 2406
-
-        # Upscale to content size using Lanczos resampling for quality
-        print(f"Upscaling from {img.size[0]}x{img.size[1]} to {CONTENT_WIDTH}x{CONTENT_HEIGHT}...")
-        img = img.resize((CONTENT_WIDTH, CONTENT_HEIGHT), Image.Resampling.LANCZOS)
 
         # Convert to RGB if needed (for JPG format)
         if img.mode != 'RGB':
             img = img.convert('RGB')
-
-        # Create larger canvas with white background
-        print(f"Creating full canvas {FULL_WIDTH}x{FULL_HEIGHT}...")
-        canvas = Image.new('RGB', (FULL_WIDTH, FULL_HEIGHT), (255, 255, 255))
-
-        # Calculate centering offset (should be 36, 36)
-        offset_x = (FULL_WIDTH - CONTENT_WIDTH) // 2
-        offset_y = (FULL_HEIGHT - CONTENT_HEIGHT) // 2
-
-        # Paste the upscaled image centered on the canvas
-        canvas.paste(img, (offset_x, offset_y))
-
-        # Add guide lines on the full canvas
-        print("Adding photobook guide lines...")
-        draw = ImageDraw.Draw(canvas)
-
-        # Horizontal guide lines (spanning full width)
-        draw.line([(0, 36), (FULL_WIDTH, 36)], fill=(0, 0, 0), width=1)  # Top margin
-        draw.line([(0, 2370), (FULL_WIDTH, 2370)], fill=(0, 0, 0), width=1)  # Bottom margin
-
-        # Vertical guide lines (spanning full height)
-        draw.line([(36, 0), (36, FULL_HEIGHT)], fill=(0, 0, 0), width=1)  # Left margin
-        draw.line([(3543, 0), (3543, FULL_HEIGHT)], fill=(0, 0, 0), width=1)  # Right margin
-        draw.line([(1789, 0), (1789, FULL_HEIGHT)], fill=(0, 0, 0), width=1)  # Center gutter/spine
-
-        # Use canvas instead of img for saving
-        img = canvas
 
         # Save to output directory
         output_dir = Path("out-images")
         output_dir.mkdir(parents=True, exist_ok=True)
         output_path = output_dir / f"{page_id}-openai.jpg"
 
-        print(f"Saving photobook-ready image ({FULL_WIDTH}x{FULL_HEIGHT})...")
-        img.save(output_path, "JPEG", quality=95)
+        if raw:
+            # Raw mode: save directly without any processing
+            print(f"Saving raw image ({img.size[0]}x{img.size[1]})...")
+            img.save(output_path, "JPEG", quality=95)
+        else:
+            # Photobook mode: upscale and add to canvas with optional guides
+            print("Processing image for photobook format...")
+
+            # Inner content dimensions (the actual generated image area)
+            CONTENT_WIDTH = 3507
+            CONTENT_HEIGHT = 2334
+
+            # Full output dimensions with bleed area
+            FULL_WIDTH = 3579
+            FULL_HEIGHT = 2406
+
+            # Upscale to content size using Lanczos resampling for quality
+            print(f"Upscaling from {img.size[0]}x{img.size[1]} to {CONTENT_WIDTH}x{CONTENT_HEIGHT}...")
+            img = img.resize((CONTENT_WIDTH, CONTENT_HEIGHT), Image.Resampling.LANCZOS)
+
+            # Create larger canvas with white background
+            print(f"Creating full canvas {FULL_WIDTH}x{FULL_HEIGHT}...")
+            canvas = Image.new('RGB', (FULL_WIDTH, FULL_HEIGHT), (255, 255, 255))
+
+            # Calculate centering offset (should be 36, 36)
+            offset_x = (FULL_WIDTH - CONTENT_WIDTH) // 2
+            offset_y = (FULL_HEIGHT - CONTENT_HEIGHT) // 2
+
+            # Paste the upscaled image centered on the canvas
+            canvas.paste(img, (offset_x, offset_y))
+
+            # Optionally add guide lines on the full canvas
+            if add_guides:
+                print("Adding photobook guide lines...")
+                draw = ImageDraw.Draw(canvas)
+
+                # Horizontal guide lines (spanning full width)
+                draw.line([(0, 36), (FULL_WIDTH, 36)], fill=(0, 0, 0), width=1)  # Top margin
+                draw.line([(0, 2370), (FULL_WIDTH, 2370)], fill=(0, 0, 0), width=1)  # Bottom margin
+
+                # Vertical guide lines (spanning full height)
+                draw.line([(36, 0), (36, FULL_HEIGHT)], fill=(0, 0, 0), width=1)  # Left margin
+                draw.line([(3543, 0), (3543, FULL_HEIGHT)], fill=(0, 0, 0), width=1)  # Right margin
+                draw.line([(1789, 0), (1789, FULL_HEIGHT)], fill=(0, 0, 0), width=1)  # Center gutter/spine
+
+            # Use canvas for saving
+            print(f"Saving photobook-ready image ({FULL_WIDTH}x{FULL_HEIGHT})...")
+            canvas.save(output_path, "JPEG", quality=95)
 
         return str(output_path)
 
@@ -569,12 +604,13 @@ def generate_prompt(prompt: str, page_id: str) -> str:
 
 def main():
     """Main entry point."""
-    # Validate arguments
-    if len(sys.argv) == 1 or sys.argv[1] in ["-h", "--help", "help"]:
-        print_help()
-        sys.exit(0)
+    # Parse arguments
+    args = parse_args()
 
-    backend, page_path = validate_args(sys.argv)
+    backend = args.backend
+    page_path = args.page_path
+    add_guides = args.add_guides
+    raw = args.raw
 
     # Extract page ID from path for output filename (e.g., "pages/cu-ha-02.yaml" -> "cu-ha-02")
     page_id = Path(page_path).stem
@@ -615,7 +651,7 @@ def main():
 
     # Generate image with selected backend
     if backend == "openai":
-        output_path = generate_with_openai(prompt, page_id, references)
+        output_path = generate_with_openai(prompt, page_id, references, add_guides, raw)
     elif backend == "replicate":
         print("Error: Replicate backend is currently deprecated")
         print("Use 'openai' or 'prompt' backend instead")
